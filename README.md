@@ -30,9 +30,43 @@ Upload one video and a CSV of audience profiles. ADsensei analyses every frame w
 
 ## Architecture
 
-<p align="center">
-  <img src="architecture.svg" alt="ADsensei Architecture" width="860"/>
-</p>
+```mermaid
+flowchart TD
+    A([🎬 Master Video]) --> C
+    B([👥 Audience CSV]) --> D
+
+    subgraph PIPELINE["⚙️  ADsensei Pipeline"]
+        C["01 · VLM Frame Analysis\nClaude Vision — scene captions & timeline"]
+        D["02 · K-Means Clustering\nText embeddings → N audience segments"]
+        E["03 · Market Research\nPerplexity — insights & citations per segment"]
+        F["04 · Transform Planner\nClaude Sonnet — colour · speed · overlays"]
+        G["05 · FFmpeg Renderer\nApplies transforms per segment"]
+        C --> D --> E --> F --> G
+    end
+
+    G --> H([🎞 group-0.mp4\nAffluent Professionals])
+    G --> I([🎞 group-1.mp4\nYoung Urban Creatives])
+    G --> J([🎞 group-2.mp4\nSuburban Families])
+
+    TR(["⚡ TokenRouter\n60+ models · one key"]) -.->|routes all LLM calls| C
+    TR -.-> E
+    TR -.-> F
+
+    AH(["🤖 AgentHansa\nExpert Agent"]) --> MCP
+    MCP(["🔧 MCP Server\ngenerate_targeted_ad"]) --> PIPELINE
+    FX(["💸 FluxA\nUSDC payouts"]) --> AH
+
+    style PIPELINE fill:#0f0f1a,stroke:#6366f1,stroke-width:2px,color:#fff
+    style A fill:#1e1e3a,stroke:#6366f1,color:#fff
+    style B fill:#1e1e3a,stroke:#f472b6,color:#fff
+    style H fill:#1e1e3a,stroke:#6366f1,color:#fff
+    style I fill:#1e1e3a,stroke:#f472b6,color:#fff
+    style J fill:#1e1e3a,stroke:#34d399,color:#fff
+    style TR fill:#1e1e3a,stroke:#fbbf24,color:#fff
+    style AH fill:#1e1e3a,stroke:#6366f1,color:#fff
+    style MCP fill:#1e1e3a,stroke:#a78bfa,color:#fff
+    style FX fill:#1e1e3a,stroke:#34d399,color:#fff
+```
 
 ### Pipeline — step by step
 
@@ -224,7 +258,7 @@ Download [sample_profiles.csv](frontend/public/sample_profiles.csv) — 25 diver
 
 ## Team
 
-Built by **Shanthan** and **Avaneesh** at the AI Agent Economy Hackathon, April 2026.
+Built solo by **Shanthan** at the AI Agent Economy Hackathon, April 2026.
 
 ---
 
