@@ -1,0 +1,4059 @@
+{
+  "fps": 0.5,
+  "duration": 79.064,
+  "scene_cuts": [
+    3.44,
+    6.6,
+    7.68,
+    8.84,
+    9.8,
+    12.12,
+    16.08,
+    18.48,
+    20.64,
+    23.48,
+    25.16,
+    27.44,
+    31.28,
+    35.28,
+    37.16,
+    44.0,
+    46.24,
+    47.92,
+    51.36,
+    52.36,
+    53.64,
+    55.24,
+    57.16,
+    58.24,
+    60.72,
+    62.2,
+    64.24,
+    69.88,
+    72.0,
+    73.96,
+    76.6
+  ],
+  "captions": [
+    {
+      "id": 0,
+      "t": 0.0,
+      "caption": "A person stands with their back to the camera in an elegant interior space, with text overlay reading 'BASED ON A REAL DM FROM'.",
+      "actions": [
+        "person standing",
+        "text displayed on screen"
+      ],
+      "objects": [
+        "plaid jacket",
+        "white flowers",
+        "tables",
+        "text overlay"
+      ],
+      "people": [
+        "unidentified person facing away"
+      ],
+      "setting": "upscale indoor venue or hotel lobby",
+      "confidence": 0.82
+    },
+    {
+      "id": 1,
+      "t": 2.0,
+      "caption": "An unidentified person in a plaid jacket stands facing away in an elegant indoor space while a text overlay reading 'Based on a Real DM from Ed Sheeran' appears on screen.",
+      "actions": [
+        "person standing facing away",
+        "text overlay displayed"
+      ],
+      "objects": [
+        "plaid jacket",
+        "white flowers",
+        "tables",
+        "text overlay"
+      ],
+      "people": [
+        "unidentified person facing away"
+      ],
+      "setting": "elegant indoor venue or restaurant",
+      "confidence": 0.82
+    },
+    {
+      "id": 2,
+      "t": 4.0,
+      "caption": "A person in a plaid jacket stands facing the camera in an elegant interior setting with white flowers on either side.",
+      "actions": [
+        "standing still",
+        "facing camera"
+      ],
+      "objects": [
+        "plaid jacket",
+        "white flowers",
+        "tables"
+      ],
+      "people": [
+        "unidentified person facing away"
+      ],
+      "setting": "indoor elegant room with floral arrangements",
+      "confidence": 0.82
+    },
+    {
+      "id": 3,
+      "t": 6.0,
+      "caption": "Several people move through and are seated in an elegant dining room, with a person in a plaid jacket walking near the center.",
+      "actions": [
+        "person in plaid jacket walking",
+        "people seated at tables",
+        "staff moving through dining room"
+      ],
+      "objects": [
+        "tables",
+        "white flowers",
+        "chairs",
+        "place settings"
+      ],
+      "people": [
+        "unidentified person facing away",
+        "person in plaid jacket",
+        "seated diners",
+        "staff members"
+      ],
+      "setting": "upscale restaurant or hotel dining room",
+      "confidence": 0.82
+    },
+    {
+      "id": 4,
+      "t": 8.0,
+      "caption": "The camera pans across an elegant interior wall with decorative molding and a wall sconce emitting warm light.",
+      "actions": [
+        "camera panning across wall",
+        "light illuminating wall"
+      ],
+      "objects": [
+        "wall sconce",
+        "decorative molding",
+        "warm lighting",
+        "paneled wall"
+      ],
+      "people": [],
+      "setting": "upscale interior corridor or dining room wall",
+      "confidence": 0.82
+    },
+    {
+      "id": 5,
+      "t": 10.0,
+      "caption": "A close-up shot of an elegantly set dining table featuring neatly arranged silverware, a folded white napkin, glassware, and white flowers as a centerpiece.",
+      "actions": [
+        "table being displayed",
+        "place setting arranged"
+      ],
+      "objects": [
+        "silverware",
+        "white napkin",
+        "glassware",
+        "white flowers",
+        "candle holder",
+        "place settings",
+        "chairs"
+      ],
+      "people": [],
+      "setting": "formal dining room with warm lighting and elegant table setting",
+      "confidence": 0.92
+    },
+    {
+      "id": 6,
+      "t": 12.0,
+      "caption": "A man in a tuxedo plays a grand piano in an elegant restaurant while seated diners watch in the background.",
+      "actions": [
+        "playing piano",
+        "seated diners observing"
+      ],
+      "objects": [
+        "grand piano",
+        "candle holder",
+        "glassware",
+        "place settings",
+        "wall sconce",
+        "warm lighting",
+        "paneled wall"
+      ],
+      "people": [
+        "man in tuxedo playing piano",
+        "seated diners"
+      ],
+      "setting": "upscale restaurant dining room",
+      "confidence": 0.92
+    },
+    {
+      "id": 7,
+      "t": 16.0,
+      "caption": "A man in a tuxedo looks downward, seated near white flowers, while a woman with red lips is visible in the background.",
+      "actions": [
+        "man looking down",
+        "woman seated nearby"
+      ],
+      "objects": [
+        "white flowers",
+        "warm lighting"
+      ],
+      "people": [
+        "man in tuxedo",
+        "woman in background"
+      ],
+      "setting": "elegant dining room",
+      "confidence": 0.82
+    },
+    {
+      "id": 8,
+      "t": 18.0,
+      "caption": "A person stands behind a reception desk in an elegant interior, with white flowers and a plant visible in the background.",
+      "actions": [
+        "person standing behind desk",
+        "person appears to be working at reception"
+      ],
+      "objects": [
+        "white flowers",
+        "plant",
+        "reception desk",
+        "text overlay",
+        "wall sconce",
+        "decorative molding",
+        "paneled wall"
+      ],
+      "people": [
+        "unidentified person facing away"
+      ],
+      "setting": "upscale hotel or restaurant reception area with warm lighting and elegant decor",
+      "confidence": 0.82
+    },
+    {
+      "id": 9,
+      "t": 20.0,
+      "caption": "A woman in a black dress speaks directly to a person in a plaid jacket who is facing away from the camera.",
+      "actions": [
+        "woman speaking",
+        "person in plaid jacket facing away",
+        "conversation taking place"
+      ],
+      "objects": [
+        "plaid jacket",
+        "black dress",
+        "warm lighting"
+      ],
+      "people": [
+        "woman in background",
+        "person in plaid jacket"
+      ],
+      "setting": "indoor venue with warm lighting",
+      "confidence": 0.85
+    },
+    {
+      "id": 10,
+      "t": 22.0,
+      "caption": "A woman in a black dress smiles warmly while facing a person in a plaid jacket in what appears to be an elegant dining setting.",
+      "actions": [
+        "woman smiling",
+        "person in plaid jacket facing woman"
+      ],
+      "objects": [
+        "black dress",
+        "plaid jacket"
+      ],
+      "people": [
+        "woman in black dress",
+        "person in plaid jacket"
+      ],
+      "setting": "upscale restaurant or event venue with warm lighting",
+      "confidence": 0.88
+    },
+    {
+      "id": 11,
+      "t": 24.0,
+      "caption": "A man with curly red hair and a beard is seen in profile, appearing to listen or converse. Another person is partially visible in the foreground.",
+      "actions": [
+        "man listening",
+        "person partially visible in foreground"
+      ],
+      "objects": [
+        "plaid jacket"
+      ],
+      "people": [
+        "person in plaid jacket",
+        "unidentified person facing away"
+      ],
+      "setting": "indoor, dimly lit environment",
+      "confidence": 0.82
+    },
+    {
+      "id": 12,
+      "t": 26.0,
+      "caption": "Staff members lean over a dining table, appearing to arrange place settings or assist a seated guest in a formal restaurant setting.",
+      "actions": [
+        "staff members leaning over table",
+        "arranging place settings",
+        "attending to seated guest"
+      ],
+      "objects": [
+        "tables",
+        "place settings",
+        "glassware",
+        "white napkin",
+        "silverware",
+        "chairs",
+        "candle holder",
+        "wall sconce",
+        "decorative molding"
+      ],
+      "people": [
+        "person in plaid jacket",
+        "staff members"
+      ],
+      "setting": "formal upscale restaurant with warm lighting and paneled walls",
+      "confidence": 0.82
+    },
+    {
+      "id": 13,
+      "t": 28.0,
+      "caption": "A man in a vest and tie stands facing the camera, appearing to speak or address someone. He is positioned in an elegantly lit interior space.",
+      "actions": [
+        "man speaking or addressing camera",
+        "man standing"
+      ],
+      "objects": [
+        "vest",
+        "tie",
+        "warm lighting",
+        "decorative molding",
+        "wall sconce",
+        "paneled wall"
+      ],
+      "people": [
+        "man in vest and tie"
+      ],
+      "setting": "elegant interior hall with warm lighting and decorative architectural details",
+      "confidence": 0.82
+    },
+    {
+      "id": 14,
+      "t": 32.0,
+      "caption": "A man with red hair and a beard smiles and looks around in what appears to be an elegant dining setting.",
+      "actions": [
+        "man smiling",
+        "man looking around"
+      ],
+      "objects": [
+        "plaid jacket"
+      ],
+      "people": [
+        "person in plaid jacket"
+      ],
+      "setting": "upscale restaurant or event venue",
+      "confidence": 0.72
+    },
+    {
+      "id": 15,
+      "t": 34.0,
+      "caption": "A man in a vest and tie presents a silver cloche dish while standing in an elegant dining room.",
+      "actions": [
+        "man in vest and tie holding silver cloche",
+        "staff member presenting dish"
+      ],
+      "objects": [
+        "silver cloche",
+        "vest",
+        "tie",
+        "warm lighting",
+        "decorative molding",
+        "wall sconce"
+      ],
+      "people": [
+        "man in vest and tie",
+        "woman in black dress",
+        "seated diners"
+      ],
+      "setting": "upscale restaurant dining room",
+      "confidence": 0.92
+    },
+    {
+      "id": 16,
+      "t": 36.0,
+      "caption": "A person in a plaid jacket sits at a dining table looking upward as a staff member lifts a silver cloche nearby. The elegant restaurant setting is filled with seated diners in the background.",
+      "actions": [
+        "person looking upward",
+        "staff member lifting silver cloche",
+        "seated diners dining in background"
+      ],
+      "objects": [
+        "silver cloche",
+        "plaid jacket",
+        "glassware",
+        "place settings",
+        "candle holder",
+        "warm lighting",
+        "tables",
+        "chairs",
+        "silverware",
+        "white napkin"
+      ],
+      "people": [
+        "person in plaid jacket",
+        "staff members",
+        "seated diners"
+      ],
+      "setting": "upscale restaurant with warm lighting and paneled walls",
+      "confidence": 0.91
+    },
+    {
+      "id": 17,
+      "t": 38.0,
+      "caption": "A man in vest and tie stands and appears to be speaking or conversing in an elegant dining room setting.",
+      "actions": [
+        "man speaking",
+        "man standing"
+      ],
+      "objects": [
+        "vest",
+        "tie",
+        "warm lighting",
+        "decorative molding",
+        "paneled wall"
+      ],
+      "people": [
+        "man in vest and tie"
+      ],
+      "setting": "elegant interior dining room",
+      "confidence": 0.91
+    },
+    {
+      "id": 18,
+      "t": 44.0,
+      "caption": "A person in a plaid jacket sits alone at a dining table, looking directly at the camera while staff members move in the background.",
+      "actions": [
+        "sitting at table",
+        "looking at camera",
+        "staff moving in background"
+      ],
+      "objects": [
+        "glassware",
+        "place settings",
+        "white napkin",
+        "silverware",
+        "candle holder",
+        "tables",
+        "chairs",
+        "paneled wall",
+        "warm lighting"
+      ],
+      "people": [
+        "person in plaid jacket",
+        "staff members"
+      ],
+      "setting": "upscale restaurant dining room",
+      "confidence": 0.91
+    },
+    {
+      "id": 19,
+      "t": 46.0,
+      "caption": "A person in a white chef's uniform stands near a glass door, while another person is partially visible in the foreground.",
+      "actions": [
+        "chef standing near door",
+        "person seated in foreground"
+      ],
+      "objects": [
+        "glass door",
+        "plant",
+        "white uniform"
+      ],
+      "people": [
+        "person in white chef uniform",
+        "unidentified person facing away"
+      ],
+      "setting": "restaurant interior near entrance",
+      "confidence": 0.72
+    },
+    {
+      "id": 20,
+      "t": 48.0,
+      "caption": "A person in a plaid jacket sits at a dining table, leaning forward over their plate while other diners are visible in the background.",
+      "actions": [
+        "person leaning over plate",
+        "seated diners conversing in background",
+        "staff member standing near glass door"
+      ],
+      "objects": [
+        "plaid jacket",
+        "place settings",
+        "glassware",
+        "white napkin",
+        "silverware",
+        "tables",
+        "chairs"
+      ],
+      "people": [
+        "person in plaid jacket",
+        "seated diners",
+        "staff members"
+      ],
+      "setting": "upscale restaurant dining room with warm lighting and paneled walls",
+      "confidence": 0.82
+    },
+    {
+      "id": 21,
+      "t": 52.0,
+      "caption": "Two elegantly dressed women sit at a table, one holding a small chihuahua while both look toward the camera with composed expressions.",
+      "actions": [
+        "woman holding small dog",
+        "two women seated at table",
+        "women looking toward camera"
+      ],
+      "objects": [
+        "white flowers",
+        "glassware",
+        "place settings",
+        "tables",
+        "chairs",
+        "small chihuahua"
+      ],
+      "people": [
+        "woman in plaid jacket",
+        "woman in background",
+        "seated diners"
+      ],
+      "setting": "upscale restaurant dining room with warm lighting and decorative molding",
+      "confidence": 0.88
+    },
+    {
+      "id": 22,
+      "t": 54.0,
+      "caption": "A person in a plaid jacket pours or shakes a condiment bottle over a plated dish at a restaurant table.",
+      "actions": [
+        "pouring condiment onto plate",
+        "holding bottle over food"
+      ],
+      "objects": [
+        "silver cloche",
+        "plated dish",
+        "condiment bottle",
+        "place settings",
+        "glassware"
+      ],
+      "people": [
+        "person in plaid jacket"
+      ],
+      "setting": "upscale restaurant dining area with warm lighting",
+      "confidence": 0.88
+    },
+    {
+      "id": 23,
+      "t": 56.0,
+      "caption": "A man in plaid jacket sits at a dining table using his phone while a staff member in white uniform stands nearby attending to him.",
+      "actions": [
+        "man sitting at table using phone",
+        "staff member standing and attending table",
+        "seated diners dining in background"
+      ],
+      "objects": [
+        "tables",
+        "chairs",
+        "place settings",
+        "glassware",
+        "white napkin",
+        "silverware",
+        "plated dish",
+        "white flowers",
+        "candle holder",
+        "condiment bottle"
+      ],
+      "people": [
+        "person in plaid jacket",
+        "person in white chef uniform",
+        "seated diners",
+        "staff members"
+      ],
+      "setting": "upscale restaurant with warm lighting, paneled walls, and decorative molding",
+      "confidence": 0.88
+    },
+    {
+      "id": 24,
+      "t": 58.0,
+      "caption": "A person in a plaid jacket sits alone at a formally set table in an elegant dining room, appearing to interact with items on the table while a staff member stands nearby.",
+      "actions": [
+        "person sitting at table",
+        "staff member standing beside table",
+        "diners seated in background"
+      ],
+      "objects": [
+        "white tablecloth",
+        "place settings",
+        "glassware",
+        "silverware",
+        "candle holder",
+        "tables",
+        "chairs"
+      ],
+      "people": [
+        "person in plaid jacket",
+        "staff members",
+        "seated diners"
+      ],
+      "setting": "upscale restaurant dining room with warm lighting, decorative molding, and paneled walls",
+      "confidence": 0.85
+    },
+    {
+      "id": 25,
+      "t": 60.0,
+      "caption": "A small chihuahua wearing a colorful beaded necklace is being held by a person in a light-colored outfit.",
+      "actions": [
+        "chihuahua being held",
+        "person cradling small dog"
+      ],
+      "objects": [
+        "small chihuahua",
+        "colorful beaded necklace",
+        "light-colored clothing"
+      ],
+      "people": [
+        "unidentified person facing away"
+      ],
+      "setting": "indoor, warm ambient background",
+      "confidence": 0.82
+    },
+    {
+      "id": 26,
+      "t": 62.0,
+      "caption": "A person in a plaid jacket pours or holds a red cup over a plated dish at a table, while staff members move in the background.",
+      "actions": [
+        "person holding red cup over table",
+        "staff members moving in background",
+        "dining at table"
+      ],
+      "objects": [
+        "plaid jacket",
+        "red cup",
+        "plated dish",
+        "white tablecloth",
+        "glassware",
+        "place settings",
+        "tables"
+      ],
+      "people": [
+        "person in plaid jacket",
+        "staff members"
+      ],
+      "setting": "restaurant dining room with warm lighting",
+      "confidence": 0.82
+    },
+    {
+      "id": 27,
+      "t": 64.0,
+      "caption": "A man in a vest and tie stands facing the camera in an elegant dining room, with seated diners and staff visible in the background.",
+      "actions": [
+        "man standing and facing camera",
+        "diners seated in background",
+        "staff members present in background"
+      ],
+      "objects": [
+        "vest",
+        "tie",
+        "white flowers",
+        "chairs",
+        "warm lighting",
+        "decorative molding",
+        "paneled wall",
+        "wall sconce"
+      ],
+      "people": [
+        "man in vest and tie",
+        "seated diners",
+        "staff members",
+        "woman in background"
+      ],
+      "setting": "elegant formal dining room with warm lighting and classical architectural details",
+      "confidence": 0.91
+    },
+    {
+      "id": 28,
+      "t": 70.0,
+      "caption": "A person in a plaid jacket sits at a dining table holding a red cup while a plated dish sits in front of them. Seated diners are visible in the background of an elegant restaurant setting.",
+      "actions": [
+        "person holding red cup",
+        "seated at dining table",
+        "diners eating in background"
+      ],
+      "objects": [
+        "plaid jacket",
+        "red cup",
+        "plated dish",
+        "white tablecloth",
+        "glassware",
+        "place settings",
+        "chairs",
+        "tables"
+      ],
+      "people": [
+        "person in plaid jacket",
+        "seated diners"
+      ],
+      "setting": "elegant restaurant dining room with warm lighting and decorative molding",
+      "confidence": 0.92
+    },
+    {
+      "id": 29,
+      "t": 72.0,
+      "caption": "A man in a vest and tie stands and looks upward in an elegant dining setting.",
+      "actions": [
+        "man standing",
+        "man looking upward"
+      ],
+      "objects": [
+        "vest",
+        "tie",
+        "warm lighting",
+        "decorative molding",
+        "paneled wall"
+      ],
+      "people": [
+        "man in vest and tie"
+      ],
+      "setting": "upscale restaurant interior",
+      "confidence": 0.88
+    },
+    {
+      "id": 30,
+      "t": 74.0,
+      "caption": "A person in a plaid jacket sits at a dining table and cuts into a plated dish, with a condiment bottle prominently placed beside their plate.",
+      "actions": [
+        "person cutting food on plate",
+        "person seated at table dining"
+      ],
+      "objects": [
+        "plaid jacket",
+        "plated dish",
+        "condiment bottle",
+        "white tablecloth",
+        "glassware",
+        "silverware",
+        "white napkin"
+      ],
+      "people": [
+        "person in plaid jacket"
+      ],
+      "setting": "upscale restaurant dining room with warm lighting",
+      "confidence": 0.92
+    },
+    {
+      "id": 31,
+      "t": 76.0,
+      "caption": "A Heinz Tomato Ketchup bottle sits prominently on a table with a text overlay referencing an Ed Sheeran x Heinz collaboration.",
+      "actions": [
+        "ketchup bottle displayed on table",
+        "text overlay shown on screen"
+      ],
+      "objects": [
+        "condiment bottle",
+        "white tablecloth",
+        "glassware",
+        "text overlay"
+      ],
+      "people": [],
+      "setting": "restaurant table, close-up product shot",
+      "confidence": 0.95
+    }
+  ],
+  "events": [
+    {
+      "t_start": 0.0,
+      "t_end": 2.0,
+      "caption_id": 0
+    },
+    {
+      "t_start": 2.0,
+      "t_end": 4.0,
+      "caption_id": 1
+    },
+    {
+      "t_start": 4.0,
+      "t_end": 6.0,
+      "caption_id": 2
+    },
+    {
+      "t_start": 6.0,
+      "t_end": 8.0,
+      "caption_id": 3
+    },
+    {
+      "t_start": 8.0,
+      "t_end": 10.0,
+      "caption_id": 4
+    },
+    {
+      "t_start": 10.0,
+      "t_end": 12.0,
+      "caption_id": 5
+    },
+    {
+      "t_start": 12.0,
+      "t_end": 16.0,
+      "caption_id": 6
+    },
+    {
+      "t_start": 16.0,
+      "t_end": 18.0,
+      "caption_id": 7
+    },
+    {
+      "t_start": 18.0,
+      "t_end": 20.0,
+      "caption_id": 8
+    },
+    {
+      "t_start": 20.0,
+      "t_end": 22.0,
+      "caption_id": 9
+    },
+    {
+      "t_start": 22.0,
+      "t_end": 24.0,
+      "caption_id": 10
+    },
+    {
+      "t_start": 24.0,
+      "t_end": 26.0,
+      "caption_id": 11
+    },
+    {
+      "t_start": 26.0,
+      "t_end": 28.0,
+      "caption_id": 12
+    },
+    {
+      "t_start": 28.0,
+      "t_end": 32.0,
+      "caption_id": 13
+    },
+    {
+      "t_start": 32.0,
+      "t_end": 34.0,
+      "caption_id": 14
+    },
+    {
+      "t_start": 34.0,
+      "t_end": 36.0,
+      "caption_id": 15
+    },
+    {
+      "t_start": 36.0,
+      "t_end": 38.0,
+      "caption_id": 16
+    },
+    {
+      "t_start": 38.0,
+      "t_end": 44.0,
+      "caption_id": 17
+    },
+    {
+      "t_start": 44.0,
+      "t_end": 46.0,
+      "caption_id": 18
+    },
+    {
+      "t_start": 46.0,
+      "t_end": 48.0,
+      "caption_id": 19
+    },
+    {
+      "t_start": 48.0,
+      "t_end": 52.0,
+      "caption_id": 20
+    },
+    {
+      "t_start": 52.0,
+      "t_end": 54.0,
+      "caption_id": 21
+    },
+    {
+      "t_start": 54.0,
+      "t_end": 56.0,
+      "caption_id": 22
+    },
+    {
+      "t_start": 56.0,
+      "t_end": 58.0,
+      "caption_id": 23
+    },
+    {
+      "t_start": 58.0,
+      "t_end": 60.0,
+      "caption_id": 24
+    },
+    {
+      "t_start": 60.0,
+      "t_end": 62.0,
+      "caption_id": 25
+    },
+    {
+      "t_start": 62.0,
+      "t_end": 64.0,
+      "caption_id": 26
+    },
+    {
+      "t_start": 64.0,
+      "t_end": 70.0,
+      "caption_id": 27
+    },
+    {
+      "t_start": 70.0,
+      "t_end": 72.0,
+      "caption_id": 28
+    },
+    {
+      "t_start": 72.0,
+      "t_end": 74.0,
+      "caption_id": 29
+    },
+    {
+      "t_start": 74.0,
+      "t_end": 76.0,
+      "caption_id": 30
+    },
+    {
+      "t_start": 76.0,
+      "t_end": 79.064,
+      "caption_id": 31
+    }
+  ],
+  "dense_captions": [
+    {
+      "t": 0.0,
+      "caption": "A person in a plaid jacket stands with their back to the camera in an elegant dining space, with the text overlay 'BASED ON A REAL DM FROM' visible on screen.",
+      "actions": [
+        "person standing facing away",
+        "text overlay displayed on screen"
+      ],
+      "objects": [
+        "plaid jacket",
+        "text overlay",
+        "white flowers",
+        "tables",
+        "warm lighting",
+        "decorative molding"
+      ],
+      "people": [
+        "unidentified person facing away"
+      ],
+      "setting": "upscale restaurant or hotel dining room with white floral arrangements and elegant decor",
+      "confidence": 0.88
+    },
+    {
+      "t": 1.5,
+      "caption": "A person in a plaid jacket stands facing away from the camera in an elegant dining setting, with text overlay reading 'Based on a real DM from Ed Sheeran'.",
+      "actions": [
+        "person standing facing away",
+        "text overlay displayed"
+      ],
+      "objects": [
+        "plaid jacket",
+        "text overlay",
+        "white flowers",
+        "tables",
+        "warm lighting",
+        "chairs",
+        "plant"
+      ],
+      "people": [
+        "person in plaid jacket",
+        "seated diners",
+        "staff members"
+      ],
+      "setting": "upscale restaurant interior with warm lighting and elegant decor",
+      "confidence": 0.88
+    },
+    {
+      "t": 3.0,
+      "caption": "A person in a plaid jacket stands facing the camera in an elegant interior setting with white flowers on either side. They appear to be posing or presenting themselves in the space.",
+      "actions": [
+        "standing facing camera",
+        "posing"
+      ],
+      "objects": [
+        "plaid jacket",
+        "white flowers",
+        "warm lighting",
+        "decorative molding",
+        "paneled wall"
+      ],
+      "people": [
+        "person in plaid jacket"
+      ],
+      "setting": "elegant interior room with white floral arrangements and ornate wall decor",
+      "confidence": 0.82
+    },
+    {
+      "t": 5.5,
+      "caption": "Staff members and diners move through an elegant restaurant dining room with white tablecloths and ornate decor. A server walks past seated guests while others dine throughout the spacious room.",
+      "actions": [
+        "staff walking through dining room",
+        "diners seated at tables",
+        "server moving between tables"
+      ],
+      "objects": [
+        "white tablecloth",
+        "place settings",
+        "chairs",
+        "tables",
+        "warm lighting",
+        "glassware",
+        "decorative molding"
+      ],
+      "people": [
+        "staff members",
+        "seated diners",
+        "person in plaid jacket"
+      ],
+      "setting": "upscale restaurant dining room with white and gold decor, high ceilings, and ornate columns",
+      "confidence": 0.85
+    },
+    {
+      "t": 7.0,
+      "caption": "The camera pans across an elegant interior wall featuring decorative molding and a wall sconce emitting warm light. No people are visible in this frame.",
+      "actions": [
+        "camera panning across wall"
+      ],
+      "objects": [
+        "wall sconce",
+        "decorative molding",
+        "paneled wall",
+        "warm lighting"
+      ],
+      "people": [],
+      "setting": "upscale indoor dining or reception area hallway",
+      "confidence": 0.91
+    },
+    {
+      "t": 9.5,
+      "caption": "A close-up shot of an elegantly set table with silverware, glassware, and white napkin arranged neatly alongside white flowers and a candle holder.",
+      "actions": [
+        "table being displayed",
+        "place setting arranged formally"
+      ],
+      "objects": [
+        "silverware",
+        "white napkin",
+        "glassware",
+        "candle holder",
+        "white flowers",
+        "place settings",
+        "white tablecloth"
+      ],
+      "people": [],
+      "setting": "upscale restaurant dining table, close-up view",
+      "confidence": 0.92
+    },
+    {
+      "t": 11.0,
+      "caption": "A man in a tuxedo plays a grand piano in an elegant dining room while seated diners enjoy their meal in the background.",
+      "actions": [
+        "playing piano",
+        "sitting at dining table",
+        "dining in background"
+      ],
+      "objects": [
+        "grand piano",
+        "candle holder",
+        "glassware",
+        "place settings",
+        "wall sconce",
+        "warm lighting",
+        "white tablecloth"
+      ],
+      "people": [
+        "man in tuxedo playing piano",
+        "woman in background",
+        "seated diners"
+      ],
+      "setting": "upscale restaurant dining room with warm lighting and elegant decor",
+      "confidence": 0.92
+    },
+    {
+      "t": 13.5,
+      "caption": "A man in a tuxedo plays a grand piano in an elegant dining room while a woman sits at a table in the background.",
+      "actions": [
+        "man playing piano",
+        "woman seated at table"
+      ],
+      "objects": [
+        "grand piano",
+        "candle holder",
+        "warm lighting",
+        "decorative molding",
+        "wall sconce",
+        "place settings",
+        "glassware",
+        "white tablecloth"
+      ],
+      "people": [
+        "man in tuxedo playing piano",
+        "woman in background"
+      ],
+      "setting": "upscale restaurant dining room",
+      "confidence": 0.95
+    },
+    {
+      "t": 15.0,
+      "caption": "A man in a tuxedo looks downward while a woman is partially visible in the background in an elegant dining setting.",
+      "actions": [
+        "man looking down",
+        "woman standing or seated in background"
+      ],
+      "objects": [
+        "warm lighting",
+        "decorative molding",
+        "white flowers",
+        "plant"
+      ],
+      "people": [
+        "man in tuxedo",
+        "woman in background"
+      ],
+      "setting": "elegant indoor dining or event venue with warm lighting",
+      "confidence": 0.82
+    },
+    {
+      "t": 17.5,
+      "caption": "A staff member stands behind a reception desk in an elegant hotel lobby with white orchids on display. The person appears to be working at the front desk area.",
+      "actions": [
+        "staff member standing at reception desk",
+        "person looking forward behind counter"
+      ],
+      "objects": [
+        "reception desk",
+        "plant",
+        "white flowers",
+        "wall sconce",
+        "decorative molding",
+        "warm lighting",
+        "paneled wall"
+      ],
+      "people": [
+        "staff members"
+      ],
+      "setting": "hotel lobby or upscale restaurant reception area",
+      "confidence": 0.82
+    },
+    {
+      "t": 19.0,
+      "caption": "A woman in a black dress speaks animatedly to a person in a plaid jacket who is facing away from the camera.",
+      "actions": [
+        "woman speaking",
+        "person listening with back to camera"
+      ],
+      "objects": [
+        "black dress",
+        "plaid jacket",
+        "colorful beaded necklace"
+      ],
+      "people": [
+        "woman in black dress",
+        "person in plaid jacket"
+      ],
+      "setting": "indoor social gathering or restaurant",
+      "confidence": 0.91
+    },
+    {
+      "t": 21.5,
+      "caption": "A woman in a black dress smiles warmly while engaged in conversation with a person in a plaid jacket in the foreground.",
+      "actions": [
+        "woman smiling",
+        "people conversing"
+      ],
+      "objects": [
+        "black dress",
+        "plaid jacket"
+      ],
+      "people": [
+        "woman in black dress",
+        "person in plaid jacket"
+      ],
+      "setting": "indoor social gathering with warm lighting",
+      "confidence": 0.88
+    },
+    {
+      "t": 23.0,
+      "caption": "A man with curly red hair and a beard sits in profile view, appearing to listen or converse. Another person is partially visible in the foreground.",
+      "actions": [
+        "sitting",
+        "listening or conversing",
+        "facing sideways"
+      ],
+      "objects": [
+        "plaid jacket"
+      ],
+      "people": [
+        "man with curly red hair and beard",
+        "unidentified person facing away"
+      ],
+      "setting": "indoor, dimly lit environment",
+      "confidence": 0.82
+    },
+    {
+      "t": 25.5,
+      "caption": "Two staff members attend to a seated diner at a white-tablecloth table, leaning in to assist or serve. The elegant dining room is softly lit with warm lighting and decorative molding.",
+      "actions": [
+        "staff members leaning over table",
+        "attending to seated diner",
+        "placing or adjusting items on table"
+      ],
+      "objects": [
+        "white tablecloth",
+        "glassware",
+        "place settings",
+        "chairs",
+        "tables",
+        "decorative molding",
+        "warm lighting"
+      ],
+      "people": [
+        "staff members",
+        "seated diners"
+      ],
+      "setting": "upscale formal restaurant dining room",
+      "confidence": 0.82
+    },
+    {
+      "t": 27.0,
+      "caption": "A man in a vest and tie stands facing the camera, appearing to speak or address someone. He is positioned in an elegantly lit interior space.",
+      "actions": [
+        "standing",
+        "speaking",
+        "facing camera"
+      ],
+      "objects": [
+        "vest",
+        "tie",
+        "wall sconce",
+        "decorative molding",
+        "warm lighting"
+      ],
+      "people": [
+        "man in vest and tie"
+      ],
+      "setting": "elegant interior dining or reception area with warm lighting and decorative columns",
+      "confidence": 0.91
+    },
+    {
+      "t": 29.5,
+      "caption": "A man in a vest and tie stands facing forward in an elegant, warmly lit interior. He appears to be speaking or addressing someone.",
+      "actions": [
+        "standing",
+        "speaking or addressing someone"
+      ],
+      "objects": [
+        "vest",
+        "tie",
+        "warm lighting",
+        "decorative molding",
+        "wall sconce"
+      ],
+      "people": [
+        "man in vest and tie"
+      ],
+      "setting": "elegant interior with warm lighting and decorative architectural details",
+      "confidence": 0.91
+    },
+    {
+      "t": 31.0,
+      "caption": "A man in a plaid jacket smiles and looks around in what appears to be an elegant dining setting. Seated diners are visible in the blurred background.",
+      "actions": [
+        "man smiling",
+        "man looking around",
+        "diners seated in background"
+      ],
+      "objects": [
+        "plaid jacket",
+        "warm lighting",
+        "chairs",
+        "tables"
+      ],
+      "people": [
+        "person in plaid jacket",
+        "seated diners"
+      ],
+      "setting": "upscale restaurant interior",
+      "confidence": 0.82
+    },
+    {
+      "t": 33.5,
+      "caption": "A man in a vest and tie holds a silver cloche while presenting it in an elegant dining room. He gestures with his free hand toward another staff member nearby.",
+      "actions": [
+        "holding silver cloche",
+        "presenting dish",
+        "gesturing with hand"
+      ],
+      "objects": [
+        "silver cloche",
+        "vest",
+        "tie",
+        "warm lighting",
+        "wall sconce"
+      ],
+      "people": [
+        "man in vest and tie",
+        "seated diners",
+        "staff members"
+      ],
+      "setting": "upscale restaurant dining room with warm lighting",
+      "confidence": 0.91
+    },
+    {
+      "t": 35.0,
+      "caption": "A person in a plaid jacket sits at a dining table and looks upward as a staff member presents a silver cloche nearby. Seated diners and warm lighting fill the elegant restaurant background.",
+      "actions": [
+        "person looking upward",
+        "staff member lifting silver cloche",
+        "diners seated in background"
+      ],
+      "objects": [
+        "silver cloche",
+        "plaid jacket",
+        "glassware",
+        "white tablecloth",
+        "place settings",
+        "candle holder",
+        "warm lighting",
+        "chairs",
+        "tables"
+      ],
+      "people": [
+        "person in plaid jacket",
+        "staff members",
+        "seated diners"
+      ],
+      "setting": "upscale restaurant dining room with warm lighting and decorative molding",
+      "confidence": 0.92
+    },
+    {
+      "t": 37.5,
+      "caption": "A man in a vest and tie stands in an elegant dining room, appearing to speak or address someone. He is facing slightly to the side in a formal setting.",
+      "actions": [
+        "man standing",
+        "man speaking or addressing someone"
+      ],
+      "objects": [
+        "vest",
+        "tie",
+        "warm lighting",
+        "decorative molding",
+        "chandelier"
+      ],
+      "people": [
+        "man in vest and tie"
+      ],
+      "setting": "elegant indoor dining room with warm lighting and decorative ceiling",
+      "confidence": 0.91
+    },
+    {
+      "t": 39.0,
+      "caption": "A man in a vest and tie stands in an elegant dining room, appearing to speak or react expressively.",
+      "actions": [
+        "man speaking or reacting",
+        "man standing"
+      ],
+      "objects": [
+        "vest",
+        "tie",
+        "warm lighting",
+        "decorative molding"
+      ],
+      "people": [
+        "man in vest and tie"
+      ],
+      "setting": "elegant indoor dining room",
+      "confidence": 0.91
+    },
+    {
+      "t": 41.5,
+      "caption": "A man in a vest and tie stands facing the camera with his mouth open, appearing to be speaking or reacting to something. He is positioned in an elegantly decorated interior space.",
+      "actions": [
+        "man speaking or reacting",
+        "standing and facing camera"
+      ],
+      "objects": [
+        "vest",
+        "tie",
+        "decorative molding",
+        "warm lighting",
+        "chandelier"
+      ],
+      "people": [
+        "man in vest and tie"
+      ],
+      "setting": "elegant interior dining or banquet room",
+      "confidence": 0.92
+    },
+    {
+      "t": 43.0,
+      "caption": "A person in a plaid jacket sits alone at a dining table in an elegant restaurant, looking forward as staff members move around them.",
+      "actions": [
+        "sitting at table",
+        "looking forward",
+        "staff members walking nearby"
+      ],
+      "objects": [
+        "white tablecloth",
+        "glassware",
+        "place settings",
+        "plated dish",
+        "chairs",
+        "warm lighting",
+        "decorative molding",
+        "paneled wall"
+      ],
+      "people": [
+        "person in plaid jacket",
+        "staff members"
+      ],
+      "setting": "upscale restaurant dining room",
+      "confidence": 0.88
+    },
+    {
+      "t": 45.5,
+      "caption": "A person in a white chef uniform stands near a glass door while another person is seated in the foreground. The chef appears to be entering or standing in a doorway.",
+      "actions": [
+        "chef standing near doorway",
+        "person seated in foreground"
+      ],
+      "objects": [
+        "glass door",
+        "white uniform",
+        "plant"
+      ],
+      "people": [
+        "person in white chef uniform",
+        "seated diners"
+      ],
+      "setting": "restaurant interior near entrance",
+      "confidence": 0.82
+    },
+    {
+      "t": 47.0,
+      "caption": "A person in a plaid jacket sits alone at a table, leaning over their plated dish in a warmly lit restaurant while seated diners converse in the background.",
+      "actions": [
+        "person leaning over plate",
+        "seated diners conversing in background",
+        "dining at table"
+      ],
+      "objects": [
+        "plaid jacket",
+        "plated dish",
+        "white tablecloth",
+        "glassware",
+        "place settings",
+        "silverware"
+      ],
+      "people": [
+        "person in plaid jacket",
+        "seated diners"
+      ],
+      "setting": "upscale restaurant interior with warm lighting and paneled walls",
+      "confidence": 0.82
+    },
+    {
+      "t": 49.5,
+      "caption": "A person in a plaid jacket sits alone at a dining table, leaning forward and holding a small chihuahua near their face. The elegant restaurant setting is visible with other diners in the background.",
+      "actions": [
+        "person holding small chihuahua",
+        "person leaning over table",
+        "seated diners in background"
+      ],
+      "objects": [
+        "plaid jacket",
+        "small chihuahua",
+        "white tablecloth",
+        "glassware",
+        "plated dish",
+        "place settings",
+        "silverware"
+      ],
+      "people": [
+        "person in plaid jacket",
+        "seated diners"
+      ],
+      "setting": "upscale restaurant with warm lighting and elegant decor",
+      "confidence": 0.91
+    },
+    {
+      "t": 51.0,
+      "caption": "Two women sit at a dining table, one holding a small chihuahua while both look off to the side with serious expressions.",
+      "actions": [
+        "woman holding chihuahua",
+        "both women looking off-camera",
+        "seated at table"
+      ],
+      "objects": [
+        "white tablecloth",
+        "white flowers",
+        "glassware",
+        "place settings",
+        "small chihuahua"
+      ],
+      "people": [
+        "woman in plaid jacket",
+        "woman in black dress"
+      ],
+      "setting": "elegant restaurant interior with paneled walls and warm lighting",
+      "confidence": 0.91
+    },
+    {
+      "t": 53.5,
+      "caption": "A person in a plaid jacket pours or squeezes a condiment bottle over a plated dish on a white tablecloth. The action appears to be adding a sauce or seasoning to the food.",
+      "actions": [
+        "squeezing condiment bottle over food",
+        "adding sauce to plated dish"
+      ],
+      "objects": [
+        "condiment bottle",
+        "plated dish",
+        "white tablecloth",
+        "glassware"
+      ],
+      "people": [
+        "person in plaid jacket"
+      ],
+      "setting": "restaurant dining table",
+      "confidence": 0.88
+    },
+    {
+      "t": 55.0,
+      "caption": "A person in light-colored clothing sits at a table in an upscale restaurant, holding a phone while a staff member in white stands nearby. Other seated diners and staff are visible in the background.",
+      "actions": [
+        "person holding phone",
+        "staff member standing beside table",
+        "seated diners dining in background"
+      ],
+      "objects": [
+        "white tablecloth",
+        "place settings",
+        "glassware",
+        "chairs",
+        "tables",
+        "white flowers",
+        "plated dish"
+      ],
+      "people": [
+        "person in light-colored clothing",
+        "staff members",
+        "seated diners"
+      ],
+      "setting": "upscale restaurant with warm lighting and elegant decor",
+      "confidence": 0.82
+    },
+    {
+      "t": 57.5,
+      "caption": "A person in a plaid jacket sits alone at a white-clothed table in an elegant dining room, appearing to interact with items on the table while a staff member stands nearby.",
+      "actions": [
+        "person sitting at table",
+        "staff member standing beside table",
+        "diners seated in background"
+      ],
+      "objects": [
+        "white tablecloth",
+        "place settings",
+        "glassware",
+        "silverware",
+        "candle holder",
+        "chairs",
+        "tables"
+      ],
+      "people": [
+        "person in plaid jacket",
+        "staff members",
+        "seated diners"
+      ],
+      "setting": "upscale restaurant dining room with warm lighting, decorative molding, and paneled walls",
+      "confidence": 0.82
+    },
+    {
+      "t": 59.0,
+      "caption": "A small chihuahua wearing a colorful beaded necklace is being held by a person in light-colored clothing.",
+      "actions": [
+        "chihuahua being held",
+        "person cradling small dog"
+      ],
+      "objects": [
+        "colorful beaded necklace",
+        "light-colored clothing"
+      ],
+      "people": [
+        "unidentified person in light-colored clothing"
+      ],
+      "setting": "indoor, appears to be a restaurant or event venue with warm lighting",
+      "confidence": 0.92
+    },
+    {
+      "t": 61.5,
+      "caption": "A person in a plaid jacket holds a red cup at a dining table while another person moves in the background. The setting appears to be a restaurant with place settings and glassware visible on the table.",
+      "actions": [
+        "holding red cup",
+        "seated at table",
+        "moving in background"
+      ],
+      "objects": [
+        "red cup",
+        "plaid jacket",
+        "glassware",
+        "place settings",
+        "white tablecloth",
+        "plated dish"
+      ],
+      "people": [
+        "person in plaid jacket",
+        "unidentified person facing away"
+      ],
+      "setting": "restaurant dining area with warm lighting",
+      "confidence": 0.82
+    },
+    {
+      "t": 63.0,
+      "caption": "A man in a vest and tie stands facing forward in an elegant dining room, with seated diners and staff visible in the background.",
+      "actions": [
+        "man standing upright",
+        "diners seated in background",
+        "staff members present in background"
+      ],
+      "objects": [
+        "white flowers",
+        "warm lighting",
+        "decorative molding",
+        "chairs",
+        "tables",
+        "place settings"
+      ],
+      "people": [
+        "man in vest and tie",
+        "seated diners",
+        "staff members",
+        "woman in background"
+      ],
+      "setting": "upscale restaurant or banquet hall with elegant decor and warm lighting",
+      "confidence": 0.88
+    },
+    {
+      "t": 65.5,
+      "caption": "A man in a vest and tie stands and appears to be singing or speaking in an elegant dining room setting. He faces the camera with his mouth open mid-performance.",
+      "actions": [
+        "man standing and singing or speaking",
+        "performing facing camera"
+      ],
+      "objects": [
+        "vest",
+        "tie",
+        "white flowers",
+        "decorative molding",
+        "warm lighting"
+      ],
+      "people": [
+        "man in vest and tie",
+        "woman in background"
+      ],
+      "setting": "elegant indoor dining or banquet hall with classical architectural details",
+      "confidence": 0.88
+    },
+    {
+      "t": 67.0,
+      "caption": "A man in a vest and tie stands facing the camera in an elegant interior, appearing to speak or address someone. He is positioned in the foreground with decorative columns and warm lighting visible behind him.",
+      "actions": [
+        "man standing and speaking",
+        "facing camera directly"
+      ],
+      "objects": [
+        "vest",
+        "tie",
+        "decorative molding",
+        "warm lighting",
+        "white flowers"
+      ],
+      "people": [
+        "man in vest and tie"
+      ],
+      "setting": "elegant interior with columns and warm ambient lighting",
+      "confidence": 0.91
+    },
+    {
+      "t": 69.5,
+      "caption": "A person in a plaid jacket sits at a dining table, holding a red cup while looking at it. Seated diners are visible in the elegant restaurant background.",
+      "actions": [
+        "sitting at table",
+        "holding red cup",
+        "looking downward"
+      ],
+      "objects": [
+        "plaid jacket",
+        "red cup",
+        "white tablecloth",
+        "plated dish",
+        "glassware",
+        "place settings",
+        "chairs",
+        "tables"
+      ],
+      "people": [
+        "person in plaid jacket",
+        "seated diners"
+      ],
+      "setting": "upscale restaurant with warm lighting and decorative molding",
+      "confidence": 0.91
+    },
+    {
+      "t": 71.0,
+      "caption": "A man in a vest and tie stands and looks upward in an elegantly lit interior space.",
+      "actions": [
+        "man looking upward",
+        "man standing"
+      ],
+      "objects": [
+        "vest",
+        "tie",
+        "warm lighting",
+        "decorative molding"
+      ],
+      "people": [
+        "man in vest and tie"
+      ],
+      "setting": "elegant interior dining or event space",
+      "confidence": 0.88
+    },
+    {
+      "t": 73.5,
+      "caption": "A person in a plaid jacket sits at a dining table and cuts into a plated dish, with a condiment bottle prominently placed beside them. Seated diners are visible in the background of the warmly lit restaurant.",
+      "actions": [
+        "cutting food on plate",
+        "sitting at table",
+        "dining"
+      ],
+      "objects": [
+        "plaid jacket",
+        "plated dish",
+        "condiment bottle",
+        "white tablecloth",
+        "glassware",
+        "silverware",
+        "white napkin",
+        "candle holder",
+        "tables",
+        "chairs"
+      ],
+      "people": [
+        "person in plaid jacket",
+        "seated diners"
+      ],
+      "setting": "upscale restaurant with warm lighting, paneled walls, and decorative molding",
+      "confidence": 0.91
+    },
+    {
+      "t": 75.0,
+      "caption": "A Heinz Tomato Ketchup bottle is prominently displayed on a table with a text overlay reading 'Ed Sheeran x Heinz'. The bottle sits on a white tablecloth alongside glassware.",
+      "actions": [
+        "ketchup bottle displayed on table",
+        "text overlay shown on screen"
+      ],
+      "objects": [
+        "condiment bottle",
+        "white tablecloth",
+        "glassware",
+        "text overlay"
+      ],
+      "people": [],
+      "setting": "restaurant table, advertisement",
+      "confidence": 0.95
+    },
+    {
+      "t": 77.5,
+      "caption": "A Heinz Tomato Ketchup bottle is prominently displayed on a dining table with an 'Ed Sheeran x Heinz' text overlay visible. The bottle sits among glassware and place settings in a restaurant setting.",
+      "actions": [
+        "displaying ketchup bottle",
+        "showing brand collaboration text overlay"
+      ],
+      "objects": [
+        "condiment bottle",
+        "glassware",
+        "white tablecloth",
+        "place settings",
+        "text overlay"
+      ],
+      "people": [],
+      "setting": "restaurant dining table with warm lighting",
+      "confidence": 0.97
+    }
+  ],
+  "scene_captions": [
+    {
+      "t": 0.0,
+      "caption": "A person in a plaid jacket is seen from behind walking into an elegant interior space, with a text overlay reading 'BASED ON A REAL DM FROM'.",
+      "actions": [
+        "person walking forward",
+        "text overlay displayed"
+      ],
+      "objects": [
+        "plaid jacket",
+        "text overlay",
+        "white flowers",
+        "tables",
+        "warm lighting"
+      ],
+      "people": [
+        "unidentified person facing away"
+      ],
+      "setting": "elegant interior restaurant or hotel lobby",
+      "confidence": 0.82
+    },
+    {
+      "t": 3.44,
+      "caption": "A person in a plaid jacket stands facing the camera in an elegant interior setting with white flowers on either side. They appear to be posing or speaking in the decorative space.",
+      "actions": [
+        "standing facing camera",
+        "posing"
+      ],
+      "objects": [
+        "plaid jacket",
+        "white flowers",
+        "warm lighting",
+        "decorative molding",
+        "paneled wall"
+      ],
+      "people": [
+        "person in plaid jacket"
+      ],
+      "setting": "elegant interior hallway or foyer with decorative elements and white floral arrangements",
+      "confidence": 0.85
+    },
+    {
+      "t": 6.6,
+      "caption": "Staff members and diners move through an elegant dining room as guests are seated at white-clothed tables. A staff member appears to be walking through the room while diners are engaged at their tables.",
+      "actions": [
+        "staff walking through dining room",
+        "diners seated at tables",
+        "guests conversing"
+      ],
+      "objects": [
+        "white tablecloth",
+        "place settings",
+        "chairs",
+        "tables",
+        "glassware",
+        "warm lighting",
+        "decorative molding"
+      ],
+      "people": [
+        "staff members",
+        "seated diners",
+        "person in plaid jacket"
+      ],
+      "setting": "upscale elegant restaurant dining room with ornate decor and warm lighting",
+      "confidence": 0.82
+    },
+    {
+      "t": 7.68,
+      "caption": "The camera pans across an elegantly decorated interior wall featuring ornate molding and a wall sconce emitting warm light. No people are visible in this frame.",
+      "actions": [
+        "camera panning across wall",
+        "light illuminating wall"
+      ],
+      "objects": [
+        "wall sconce",
+        "decorative molding",
+        "paneled wall",
+        "warm lighting"
+      ],
+      "people": [],
+      "setting": "elegant interior hallway or dining room wall",
+      "confidence": 0.88
+    },
+    {
+      "t": 9.8,
+      "caption": "A close-up shot reveals an elegantly arranged place setting on a white tablecloth with multiple pieces of silverware flanking a white napkin. A candle holder and white flowers are visible as decorative accents on the table.",
+      "actions": [
+        "displaying place setting",
+        "arranging silverware"
+      ],
+      "objects": [
+        "white napkin",
+        "silverware",
+        "glassware",
+        "candle holder",
+        "white flowers",
+        "white tablecloth",
+        "place settings"
+      ],
+      "people": [],
+      "setting": "formal dining table interior",
+      "confidence": 0.92
+    },
+    {
+      "t": 12.12,
+      "caption": "A man in a tuxedo plays a grand piano in an elegant dining room while a woman sits at a table in the background.",
+      "actions": [
+        "man playing grand piano",
+        "woman seated at table in background"
+      ],
+      "objects": [
+        "grand piano",
+        "tables",
+        "warm lighting",
+        "wall sconce",
+        "place settings",
+        "glassware",
+        "white tablecloth"
+      ],
+      "people": [
+        "man in tuxedo playing piano",
+        "woman in background"
+      ],
+      "setting": "upscale restaurant dining room",
+      "confidence": 0.95
+    },
+    {
+      "t": 16.08,
+      "caption": "A man in a tuxedo looks downward while a woman is visible in the background in an elegant dining setting.",
+      "actions": [
+        "man looking down",
+        "woman standing in background"
+      ],
+      "objects": [
+        "warm lighting",
+        "plant",
+        "decorative molding"
+      ],
+      "people": [
+        "man in tuxedo",
+        "woman in background"
+      ],
+      "setting": "upscale restaurant or event venue with warm ambient lighting",
+      "confidence": 0.82
+    },
+    {
+      "t": 18.48,
+      "caption": "A staff member stands behind a reception desk in an elegant hotel lobby, with white orchids and a plant visible in the background.",
+      "actions": [
+        "staff member standing at reception desk",
+        "person looking forward from behind desk"
+      ],
+      "objects": [
+        "reception desk",
+        "white flowers",
+        "plant",
+        "text overlay",
+        "warm lighting",
+        "decorative molding",
+        "paneled wall"
+      ],
+      "people": [
+        "staff members"
+      ],
+      "setting": "hotel reception lobby with elegant decor",
+      "confidence": 0.82
+    },
+    {
+      "t": 20.64,
+      "caption": "A woman in a black dress is speaking to a person in a plaid jacket who is facing away from the camera.",
+      "actions": [
+        "woman speaking",
+        "person listening with back turned"
+      ],
+      "objects": [
+        "black dress",
+        "plaid jacket",
+        "colorful beaded necklace"
+      ],
+      "people": [
+        "woman in black dress",
+        "person in plaid jacket"
+      ],
+      "setting": "indoor restaurant or social gathering with warm lighting",
+      "confidence": 0.91
+    },
+    {
+      "t": 23.48,
+      "caption": "A man with curly red hair and a beard is shown in profile, appearing to be in conversation or listening attentively. Another person is partially visible in the foreground.",
+      "actions": [
+        "man listening or speaking",
+        "person sitting in foreground"
+      ],
+      "objects": [
+        "plaid jacket"
+      ],
+      "people": [
+        "man with curly red hair and beard",
+        "unidentified person facing away"
+      ],
+      "setting": "indoor, dimly lit environment",
+      "confidence": 0.82
+    },
+    {
+      "t": 25.16,
+      "caption": "Two staff members attend to a seated diner at a white-tablecloth table, leaning in to assist or serve. The elegant dining room is filled with warm lighting and other seated guests in the background.",
+      "actions": [
+        "staff members leaning over table",
+        "serving or assisting seated diner",
+        "arranging table settings"
+      ],
+      "objects": [
+        "white tablecloth",
+        "glassware",
+        "place settings",
+        "chairs",
+        "tables",
+        "warm lighting",
+        "decorative molding"
+      ],
+      "people": [
+        "seated diners",
+        "staff members",
+        "person in plaid jacket"
+      ],
+      "setting": "upscale formal restaurant dining room",
+      "confidence": 0.82
+    },
+    {
+      "t": 27.44,
+      "caption": "A man in a vest and tie stands facing the camera, appearing to speak or address someone. He is positioned in an elegantly lit interior space.",
+      "actions": [
+        "standing",
+        "speaking",
+        "facing camera"
+      ],
+      "objects": [
+        "vest",
+        "tie",
+        "warm lighting",
+        "decorative molding",
+        "wall sconce"
+      ],
+      "people": [
+        "man in vest and tie"
+      ],
+      "setting": "elegant interior dining or reception area with warm ambient lighting",
+      "confidence": 0.91
+    },
+    {
+      "t": 31.28,
+      "caption": "A red-haired man in a plaid jacket looks around and smiles in what appears to be a restaurant setting. He is the focal point of the frame with blurred diners visible in the background.",
+      "actions": [
+        "man smiling",
+        "man looking around"
+      ],
+      "objects": [
+        "plaid jacket",
+        "warm lighting"
+      ],
+      "people": [
+        "person in plaid jacket",
+        "seated diners"
+      ],
+      "setting": "restaurant interior",
+      "confidence": 0.82
+    },
+    {
+      "t": 35.28,
+      "caption": "A person in a plaid jacket sits at a dining table looking upward as a staff member lifts a silver cloche nearby. Seated diners and warm restaurant lighting fill the background.",
+      "actions": [
+        "person sitting at table",
+        "person looking upward",
+        "staff member lifting silver cloche"
+      ],
+      "objects": [
+        "silver cloche",
+        "plaid jacket",
+        "glassware",
+        "white tablecloth",
+        "place settings",
+        "candle holder",
+        "chairs",
+        "tables"
+      ],
+      "people": [
+        "person in plaid jacket",
+        "staff members",
+        "seated diners"
+      ],
+      "setting": "upscale restaurant with warm lighting, paneled walls, and decorative molding",
+      "confidence": 0.91
+    },
+    {
+      "t": 37.16,
+      "caption": "A man in a vest and tie stands in an elegant dining room, appearing to speak or address someone. He is positioned in the foreground with warm lighting and decorative elements visible behind him.",
+      "actions": [
+        "man speaking",
+        "man standing"
+      ],
+      "objects": [
+        "vest",
+        "tie",
+        "warm lighting",
+        "decorative molding",
+        "chandelier"
+      ],
+      "people": [
+        "man in vest and tie"
+      ],
+      "setting": "elegant indoor dining room",
+      "confidence": 0.88
+    },
+    {
+      "t": 44.0,
+      "caption": "A person in a plaid jacket sits alone at a dining table, looking directly at the camera while staff members move around the restaurant.",
+      "actions": [
+        "person sitting at table",
+        "staff members moving in background",
+        "person looking at camera"
+      ],
+      "objects": [
+        "white tablecloth",
+        "glassware",
+        "place settings",
+        "plated dish",
+        "chairs",
+        "warm lighting"
+      ],
+      "people": [
+        "person in plaid jacket",
+        "staff members"
+      ],
+      "setting": "elegant restaurant dining room",
+      "confidence": 0.88
+    },
+    {
+      "t": 46.24,
+      "caption": "A person in a white chef uniform stands near a glass door while another person is partially visible in the foreground. The chef appears to be entering or standing in a doorway area.",
+      "actions": [
+        "chef standing near doorway",
+        "person seated in foreground"
+      ],
+      "objects": [
+        "glass door",
+        "white uniform",
+        "plant"
+      ],
+      "people": [
+        "person in white chef uniform",
+        "woman in background"
+      ],
+      "setting": "restaurant interior near entrance",
+      "confidence": 0.82
+    },
+    {
+      "t": 47.92,
+      "caption": "A person in a plaid jacket sits at a dining table, leaning forward over a plated dish while other diners are seated in the background.",
+      "actions": [
+        "person leaning over plate",
+        "seated diners conversing in background",
+        "dining at table"
+      ],
+      "objects": [
+        "plaid jacket",
+        "plated dish",
+        "white tablecloth",
+        "glassware",
+        "place settings",
+        "chairs",
+        "tables"
+      ],
+      "people": [
+        "person in plaid jacket",
+        "seated diners"
+      ],
+      "setting": "upscale restaurant dining room with warm lighting and paneled walls",
+      "confidence": 0.82
+    },
+    {
+      "t": 51.36,
+      "caption": "Two women sit at a dining table, one holding a small chihuahua while both look toward something off-screen. The setting appears to be an elegant restaurant with white decor.",
+      "actions": [
+        "woman holding chihuahua",
+        "both women looking off-screen",
+        "seated at dining table"
+      ],
+      "objects": [
+        "small chihuahua",
+        "white tablecloth",
+        "white flowers",
+        "glassware",
+        "place settings",
+        "candle holder"
+      ],
+      "people": [
+        "woman in plaid jacket",
+        "woman in black dress"
+      ],
+      "setting": "elegant restaurant dining room with warm lighting and white decor",
+      "confidence": 0.91
+    },
+    {
+      "t": 53.64,
+      "caption": "A person in a plaid jacket is squeezing a condiment bottle over a plated dish on a white tablecloth. The action appears to be adding condiment to a meal at a restaurant table.",
+      "actions": [
+        "squeezing condiment bottle over plate",
+        "leaning over table"
+      ],
+      "objects": [
+        "condiment bottle",
+        "plated dish",
+        "white tablecloth",
+        "glassware"
+      ],
+      "people": [
+        "person in plaid jacket"
+      ],
+      "setting": "restaurant dining area with warm lighting",
+      "confidence": 0.88
+    },
+    {
+      "t": 55.24,
+      "caption": "A man in casual clothing sits alone at a white-tablecloth table in an upscale restaurant, looking at his phone while a staff member stands nearby. Other diners and staff are visible in the background.",
+      "actions": [
+        "man sitting at table looking at phone",
+        "staff member standing at table",
+        "diners seated in background"
+      ],
+      "objects": [
+        "white tablecloth",
+        "glassware",
+        "place settings",
+        "silverware",
+        "chairs",
+        "tables",
+        "warm lighting",
+        "white flowers"
+      ],
+      "people": [
+        "man in light-colored clothing seated at table",
+        "staff members",
+        "seated diners"
+      ],
+      "setting": "upscale restaurant with white tablecloths and elegant decor",
+      "confidence": 0.82
+    },
+    {
+      "t": 57.16,
+      "caption": "A person in a plaid jacket sits alone at a table in an elegant dining room, appearing to interact with items on the table while a staff member stands nearby.",
+      "actions": [
+        "person sitting at table",
+        "staff member standing nearby",
+        "diners seated in background"
+      ],
+      "objects": [
+        "white tablecloth",
+        "place settings",
+        "glassware",
+        "silverware",
+        "candle holder",
+        "chairs",
+        "tables"
+      ],
+      "people": [
+        "person in plaid jacket",
+        "staff members",
+        "seated diners"
+      ],
+      "setting": "upscale restaurant with warm lighting, decorative molding, and paneled walls",
+      "confidence": 0.85
+    },
+    {
+      "t": 60.72,
+      "caption": "A small chihuahua wearing a colorful beaded necklace is being held by a person in light-colored clothing.",
+      "actions": [
+        "chihuahua being held",
+        "person holding dog"
+      ],
+      "objects": [
+        "colorful beaded necklace",
+        "light-colored clothing"
+      ],
+      "people": [
+        "unidentified person facing away"
+      ],
+      "setting": "indoor warm environment",
+      "confidence": 0.92
+    },
+    {
+      "t": 62.2,
+      "caption": "A person in a plaid jacket drinks from a red cup at a dining table while staff members move in the background.",
+      "actions": [
+        "drinking from red cup",
+        "staff moving in background",
+        "seated at table"
+      ],
+      "objects": [
+        "red cup",
+        "plaid jacket",
+        "white tablecloth",
+        "glassware",
+        "plated dish",
+        "place settings"
+      ],
+      "people": [
+        "person in plaid jacket",
+        "staff members"
+      ],
+      "setting": "restaurant dining room with warm lighting",
+      "confidence": 0.82
+    },
+    {
+      "t": 64.24,
+      "caption": "A man in a vest and tie stands facing the camera in an elegant dining room, with seated diners and staff visible in the background.",
+      "actions": [
+        "man standing upright",
+        "facing camera",
+        "diners seated in background"
+      ],
+      "objects": [
+        "vest",
+        "tie",
+        "white flowers",
+        "warm lighting",
+        "decorative molding",
+        "chairs",
+        "tables"
+      ],
+      "people": [
+        "man in vest and tie",
+        "seated diners",
+        "woman in background"
+      ],
+      "setting": "elegant indoor dining room with ornate columns and warm lighting",
+      "confidence": 0.91
+    },
+    {
+      "t": 69.88,
+      "caption": "A person in a plaid jacket sits at a dining table holding a red cup while a plated dish is in front of them. Seated diners are visible in the background of an elegantly lit restaurant.",
+      "actions": [
+        "sitting at table",
+        "holding red cup",
+        "looking forward"
+      ],
+      "objects": [
+        "plaid jacket",
+        "red cup",
+        "plated dish",
+        "white tablecloth",
+        "glassware",
+        "place settings",
+        "chairs",
+        "tables",
+        "warm lighting"
+      ],
+      "people": [
+        "person in plaid jacket",
+        "seated diners"
+      ],
+      "setting": "upscale restaurant dining room with warm lighting and decorative molding",
+      "confidence": 0.91
+    },
+    {
+      "t": 72.0,
+      "caption": "A man in a vest and tie stands and looks upward in an elegantly lit interior setting.",
+      "actions": [
+        "man looking upward",
+        "man standing"
+      ],
+      "objects": [
+        "vest",
+        "tie",
+        "warm lighting",
+        "decorative molding"
+      ],
+      "people": [
+        "man in vest and tie"
+      ],
+      "setting": "elegant interior dining or event space",
+      "confidence": 0.88
+    },
+    {
+      "t": 73.96,
+      "caption": "A person in a plaid jacket sits at a dining table and cuts into a plated dish, with a condiment bottle prominently placed nearby. Seated diners are visible in the background of the warmly lit restaurant.",
+      "actions": [
+        "cutting food on plate",
+        "sitting at table",
+        "dining"
+      ],
+      "objects": [
+        "plated dish",
+        "condiment bottle",
+        "white tablecloth",
+        "glassware",
+        "silverware",
+        "white napkin",
+        "chairs",
+        "tables",
+        "place settings",
+        "warm lighting"
+      ],
+      "people": [
+        "person in plaid jacket",
+        "seated diners"
+      ],
+      "setting": "upscale restaurant dining room with warm lighting and paneled walls",
+      "confidence": 0.91
+    },
+    {
+      "t": 76.6,
+      "caption": "A Heinz Tomato Ketchup bottle is prominently displayed on a table with a text overlay referencing an Ed Sheeran x Heinz collaboration.",
+      "actions": [
+        "ketchup bottle displayed on table",
+        "text overlay shown on screen"
+      ],
+      "objects": [
+        "condiment bottle",
+        "white tablecloth",
+        "glassware",
+        "text overlay"
+      ],
+      "people": [],
+      "setting": "restaurant table",
+      "confidence": 0.95
+    }
+  ],
+  "per_second_descriptions": [
+    {
+      "t": 0.0,
+      "description": "A person in a plaid jacket walks away from the camera through an elegant restaurant with white flowers and warm lighting, with a text overlay reading 'BASED ON A REAL DM FROM'",
+      "actions": [
+        "person walking away",
+        "text overlay displayed"
+      ],
+      "objects": [
+        "plaid jacket",
+        "white flowers",
+        "text overlay",
+        "tables",
+        "warm lighting",
+        "chairs",
+        "plant"
+      ],
+      "people": [
+        "unidentified person facing away in plaid jacket",
+        "staff members in background"
+      ],
+      "setting": "upscale restaurant interior",
+      "confidence": 0.82
+    },
+    {
+      "t": 2.0,
+      "description": "A person in a plaid jacket stands facing away in an elegant restaurant with a text overlay reading 'Based on a real DM from Ed Sheeran'.",
+      "actions": [
+        "person standing facing away",
+        "diners seated at tables",
+        "staff members attending guests"
+      ],
+      "objects": [
+        "plaid jacket",
+        "white flowers",
+        "tables",
+        "chairs",
+        "text overlay",
+        "warm lighting",
+        "place settings",
+        "white tablecloth"
+      ],
+      "people": [
+        "unidentified person in plaid jacket facing away",
+        "seated diners",
+        "staff members"
+      ],
+      "setting": "elegant upscale restaurant interior",
+      "confidence": 0.88
+    },
+    {
+      "t": 3.0,
+      "description": "A person in a plaid jacket stands in an elegant interior flanked by white flower arrangements.",
+      "actions": [
+        "standing",
+        "facing camera"
+      ],
+      "objects": [
+        "plaid jacket",
+        "white flowers",
+        "decorative molding",
+        "warm lighting",
+        "paneled wall"
+      ],
+      "people": [
+        "person in plaid jacket"
+      ],
+      "setting": "upscale indoor venue or restaurant foyer",
+      "confidence": 0.85
+    },
+    {
+      "t": 6.0,
+      "description": "An elegant upscale restaurant dining room with staff serving seated guests amid grand classical decor",
+      "actions": [
+        "staff walking between tables",
+        "diners seated and eating",
+        "guests being served"
+      ],
+      "objects": [
+        "white tablecloths",
+        "place settings",
+        "chairs",
+        "tables",
+        "warm lighting",
+        "decorative columns",
+        "glassware",
+        "silverware"
+      ],
+      "people": [
+        "seated diners",
+        "staff members walking",
+        "person in dark clothing"
+      ],
+      "setting": "grand upscale restaurant interior with classical architecture and warm lighting",
+      "confidence": 0.88
+    },
+    {
+      "t": 7.0,
+      "description": "A warmly lit interior hallway or room corner featuring elegant paneled walls with decorative molding and a wall sconce.",
+      "actions": [],
+      "objects": [
+        "wall sconce",
+        "decorative molding",
+        "paneled wall"
+      ],
+      "people": [],
+      "setting": "elegant interior hallway or room corner with warm lighting",
+      "confidence": 0.85
+    },
+    {
+      "t": 10.0,
+      "description": "A formal place setting on a white tablecloth with arranged silverware, glassware, a candle holder, and white flowers.",
+      "actions": [
+        "silverware arranged on table",
+        "flowers placed as centerpiece"
+      ],
+      "objects": [
+        "white tablecloth",
+        "silverware",
+        "glassware",
+        "white napkin",
+        "candle holder",
+        "white flowers",
+        "place settings",
+        "chair"
+      ],
+      "people": [],
+      "setting": "formal dining table indoors",
+      "confidence": 0.95
+    },
+    {
+      "t": 11.0,
+      "description": "A man in a tuxedo plays a grand piano in an elegant restaurant while diners sit at tables in the background",
+      "actions": [
+        "man playing piano",
+        "diners seated at tables"
+      ],
+      "objects": [
+        "grand piano",
+        "tables",
+        "chairs",
+        "warm lighting",
+        "glassware",
+        "white tablecloth",
+        "wall sconce"
+      ],
+      "people": [
+        "man in tuxedo playing piano",
+        "woman in background",
+        "seated diners"
+      ],
+      "setting": "upscale restaurant dining room",
+      "confidence": 0.92
+    },
+    {
+      "t": 14.0,
+      "description": "A man in a tuxedo plays a grand piano in an elegant restaurant while diners sit at tables in the background",
+      "actions": [
+        "man playing piano",
+        "diners seated at tables"
+      ],
+      "objects": [
+        "grand piano",
+        "tuxedo",
+        "tables",
+        "chairs",
+        "warm lighting",
+        "wall sconce",
+        "place settings",
+        "white tablecloth"
+      ],
+      "people": [
+        "man in tuxedo playing piano",
+        "woman in background",
+        "seated diners"
+      ],
+      "setting": "upscale restaurant interior",
+      "confidence": 0.92
+    },
+    {
+      "t": 15.0,
+      "description": "A man in a tuxedo sits at a table in an elegantly lit dining room with a woman visible in the background.",
+      "actions": [
+        "man looking down",
+        "woman seated in background"
+      ],
+      "objects": [
+        "white flowers",
+        "warm lighting",
+        "place settings"
+      ],
+      "people": [
+        "man in tuxedo",
+        "woman in background"
+      ],
+      "setting": "upscale restaurant or formal dining room",
+      "confidence": 0.82
+    },
+    {
+      "t": 18.0,
+      "description": "A staff member stands behind a reception desk in an elegant hotel lobby with white orchids and a plant on display.",
+      "actions": [
+        "staff member standing at desk"
+      ],
+      "objects": [
+        "reception desk",
+        "white flowers",
+        "plant",
+        "wall sconce",
+        "decorative molding",
+        "paneled wall"
+      ],
+      "people": [
+        "staff member behind reception desk"
+      ],
+      "setting": "upscale hotel lobby",
+      "confidence": 0.82
+    },
+    {
+      "t": 19.0,
+      "description": "A woman in a black dress speaks with a person in a plaid jacket in a warmly lit indoor setting.",
+      "actions": [
+        "conversing",
+        "facing each other"
+      ],
+      "objects": [
+        "black dress",
+        "plaid jacket",
+        "warm lighting"
+      ],
+      "people": [
+        "woman in black dress",
+        "unidentified person in plaid jacket facing away"
+      ],
+      "setting": "indoor, warmly lit room",
+      "confidence": 0.91
+    },
+    {
+      "t": 22.0,
+      "description": "A smiling woman in a black dress engages in conversation with a person in a plaid jacket in a warmly lit indoor setting.",
+      "actions": [
+        "woman smiling",
+        "two people conversing"
+      ],
+      "objects": [
+        "black dress",
+        "plaid jacket",
+        "warm lighting"
+      ],
+      "people": [
+        "smiling woman in black dress",
+        "person in plaid jacket facing away"
+      ],
+      "setting": "indoor social gathering or restaurant",
+      "confidence": 0.82
+    },
+    {
+      "t": 23.0,
+      "description": "A red-haired bearded man in a plaid shirt is seen in profile in an indoor setting.",
+      "actions": [
+        "sitting",
+        "looking forward"
+      ],
+      "objects": [
+        "plaid jacket"
+      ],
+      "people": [
+        "red-haired bearded man in plaid shirt",
+        "partially visible person in foreground"
+      ],
+      "setting": "indoor, dimly lit room",
+      "confidence": 0.82
+    },
+    {
+      "t": 26.0,
+      "description": "Staff members attend to a person in a plaid jacket seated at a white-tablecloth dining table in an elegant restaurant",
+      "actions": [
+        "staff attending to seated guest",
+        "setting or adjusting table"
+      ],
+      "objects": [
+        "white tablecloth",
+        "glassware",
+        "place settings",
+        "silverware",
+        "candle holder",
+        "chairs",
+        "tables"
+      ],
+      "people": [
+        "person in plaid jacket seated",
+        "two staff members leaning over table"
+      ],
+      "setting": "upscale restaurant with warm lighting, decorative molding, and paneled walls",
+      "confidence": 0.88
+    },
+    {
+      "t": 27.0,
+      "description": "A man in a vest and tie stands in an elegantly lit interior space.",
+      "actions": [
+        "man standing",
+        "man facing camera"
+      ],
+      "objects": [
+        "vest",
+        "tie",
+        "wall sconce",
+        "decorative molding",
+        "warm lighting"
+      ],
+      "people": [
+        "man in vest and tie"
+      ],
+      "setting": "upscale indoor venue with ornate architectural details",
+      "confidence": 0.88
+    },
+    {
+      "t": 30.0,
+      "description": "A man in a vest and tie stands in an elegantly lit interior space",
+      "actions": [
+        "standing",
+        "looking forward"
+      ],
+      "objects": [
+        "vest",
+        "tie",
+        "warm lighting",
+        "decorative molding",
+        "wall sconce"
+      ],
+      "people": [
+        "man in vest and tie"
+      ],
+      "setting": "upscale indoor venue with ornate architectural details",
+      "confidence": 0.92
+    },
+    {
+      "t": 31.0,
+      "description": "A red-haired man in a plaid jacket smiles while seated in an upscale restaurant dining room.",
+      "actions": [
+        "man smiling",
+        "looking around"
+      ],
+      "objects": [
+        "plaid jacket",
+        "warm lighting"
+      ],
+      "people": [
+        "red-haired man in plaid jacket",
+        "seated diners in background"
+      ],
+      "setting": "upscale restaurant interior",
+      "confidence": 0.82
+    },
+    {
+      "t": 34.0,
+      "description": "A waiter in a vest and tie presents a silver cloche in an elegant restaurant dining room.",
+      "actions": [
+        "waiter presenting silver cloche",
+        "diners seated in background"
+      ],
+      "objects": [
+        "silver cloche",
+        "vest",
+        "tie",
+        "warm lighting",
+        "wall sconce"
+      ],
+      "people": [
+        "man in vest and tie holding cloche",
+        "seated diner in background"
+      ],
+      "setting": "upscale restaurant dining room",
+      "confidence": 0.92
+    },
+    {
+      "t": 35.0,
+      "description": "A young man in a plaid jacket sits at a dining table in an upscale restaurant as a staff member presents a silver cloche above him.",
+      "actions": [
+        "man seated at table looking up",
+        "staff member lifting silver cloche"
+      ],
+      "objects": [
+        "plaid jacket",
+        "silver cloche",
+        "white tablecloth",
+        "glassware",
+        "place settings",
+        "candle holder",
+        "chairs",
+        "tables"
+      ],
+      "people": [
+        "young man in plaid jacket seated at table",
+        "staff member holding silver cloche",
+        "seated diners in background"
+      ],
+      "setting": "elegant upscale restaurant with warm lighting, paneled walls, and decorative molding",
+      "confidence": 0.92
+    },
+    {
+      "t": 38.0,
+      "description": "A man in a vest and tie stands indoors in an elegant dining room setting",
+      "actions": [
+        "man standing",
+        "man looking to the side"
+      ],
+      "objects": [
+        "vest",
+        "tie",
+        "warm lighting",
+        "decorative molding",
+        "chandelier"
+      ],
+      "people": [
+        "man in vest and tie"
+      ],
+      "setting": "elegant indoor dining room",
+      "confidence": 0.88
+    },
+    {
+      "t": 39.0,
+      "description": "A man in a vest and tie stands in an elegant dining room making an expressive face.",
+      "actions": [
+        "man making expressive facial gesture",
+        "standing"
+      ],
+      "objects": [
+        "vest",
+        "tie",
+        "chandelier",
+        "paneled wall",
+        "warm lighting"
+      ],
+      "people": [
+        "man in vest and tie"
+      ],
+      "setting": "upscale restaurant interior",
+      "confidence": 0.91
+    },
+    {
+      "t": 42.0,
+      "description": "A man in a vest and tie stands facing the camera with his mouth open in an elegant dining room setting.",
+      "actions": [
+        "man speaking or reacting",
+        "standing facing camera"
+      ],
+      "objects": [
+        "vest",
+        "tie",
+        "decorative molding",
+        "warm lighting",
+        "chandelier"
+      ],
+      "people": [
+        "man in vest and tie"
+      ],
+      "setting": "upscale restaurant or banquet hall interior",
+      "confidence": 0.91
+    },
+    {
+      "t": 43.0,
+      "description": "A person in a plaid jacket sits alone at a formally set dining table in an upscale restaurant with staff and diners in the background.",
+      "actions": [
+        "person seated at table",
+        "staff moving in background",
+        "diners present in background"
+      ],
+      "objects": [
+        "white tablecloth",
+        "glassware",
+        "place settings",
+        "silverware",
+        "plated dish",
+        "chairs",
+        "wall sconce",
+        "warm lighting",
+        "decorative molding",
+        "paneled wall"
+      ],
+      "people": [
+        "person in plaid jacket seated at table",
+        "staff members in background",
+        "seated diners in background"
+      ],
+      "setting": "upscale restaurant dining room",
+      "confidence": 0.92
+    },
+    {
+      "t": 46.0,
+      "description": "A person in a white chef uniform stands near a glass door while another person is seated in the foreground.",
+      "actions": [
+        "chef standing near door",
+        "person seated in foreground"
+      ],
+      "objects": [
+        "glass door",
+        "plant",
+        "white uniform"
+      ],
+      "people": [
+        "person in white chef uniform",
+        "seated person in foreground"
+      ],
+      "setting": "indoor restaurant or kitchen entrance area",
+      "confidence": 0.82
+    },
+    {
+      "t": 47.0,
+      "description": "A person in a plaid jacket sits alone at a formally set dining table in an elegant restaurant while other diners are seated in the background",
+      "actions": [
+        "person sitting at table",
+        "looking down at plate",
+        "diners conversing in background"
+      ],
+      "objects": [
+        "plaid jacket",
+        "white tablecloth",
+        "glassware",
+        "place settings",
+        "silverware",
+        "plated dish",
+        "warm lighting",
+        "paneled wall",
+        "decorative molding",
+        "wall sconce"
+      ],
+      "people": [
+        "person in plaid jacket seated at foreground table",
+        "seated diners in background",
+        "staff member partially visible at right"
+      ],
+      "setting": "upscale indoor restaurant with warm lighting and elegant decor",
+      "confidence": 0.82
+    },
+    {
+      "t": 50.0,
+      "description": "A man in a plaid jacket sits alone at a formally set dining table, focused on a small chihuahua he is holding.",
+      "actions": [
+        "man holding small chihuahua",
+        "man seated at dining table",
+        "diners in background"
+      ],
+      "objects": [
+        "grand piano",
+        "white tablecloth",
+        "glassware",
+        "place settings",
+        "silverware",
+        "plated dish",
+        "candle holder",
+        "white napkin"
+      ],
+      "people": [
+        "man in plaid jacket seated at table",
+        "woman in background",
+        "seated diners in background"
+      ],
+      "setting": "upscale restaurant with warm lighting, decorative molding, and paneled walls",
+      "confidence": 0.91
+    },
+    {
+      "t": 51.0,
+      "description": "Two elegantly dressed women sit at a dining table in an upscale restaurant, one holding a small chihuahua.",
+      "actions": [
+        "woman holding chihuahua",
+        "women seated at table",
+        "looking toward camera"
+      ],
+      "objects": [
+        "white tablecloth",
+        "white flowers",
+        "glassware",
+        "place settings",
+        "chihuahua",
+        "candle holder"
+      ],
+      "people": [
+        "woman in plaid jacket holding chihuahua",
+        "woman in dark outfit seated beside her"
+      ],
+      "setting": "upscale restaurant dining room with warm lighting and decorative molding",
+      "confidence": 0.92
+    },
+    {
+      "t": 54.0,
+      "description": "A person in a plaid jacket pours condiment from a small bottle onto a plated dish at a restaurant table.",
+      "actions": [
+        "pouring condiment onto dish"
+      ],
+      "objects": [
+        "condiment bottle",
+        "plated dish",
+        "white tablecloth",
+        "glassware"
+      ],
+      "people": [
+        "person in plaid jacket facing away"
+      ],
+      "setting": "restaurant dining area with warm lighting",
+      "confidence": 0.88
+    },
+    {
+      "t": 55.0,
+      "description": "A casually dressed man sits alone at a table in an upscale restaurant while a staff member attends to him amid other diners in the background",
+      "actions": [
+        "man sitting at table",
+        "staff member standing beside table",
+        "diners seated in background",
+        "man holding phone or object"
+      ],
+      "objects": [
+        "white tablecloth",
+        "place settings",
+        "glassware",
+        "chairs",
+        "tables",
+        "warm lighting",
+        "decorative molding",
+        "white flowers",
+        "wall sconce",
+        "paneled wall"
+      ],
+      "people": [
+        "man in casual clothing seated at table",
+        "staff member in white uniform standing nearby",
+        "seated diners in background",
+        "person in white chef uniform"
+      ],
+      "setting": "elegant upscale restaurant with warm lighting and formal decor",
+      "confidence": 0.85
+    },
+    {
+      "t": 58.0,
+      "description": "A person in a plaid jacket sits alone at a white-tablecloth table in an elegant restaurant while a staff member stands nearby and diners fill the background near a grand piano.",
+      "actions": [
+        "person sitting at table",
+        "staff member standing",
+        "diners seated in background",
+        "pianist playing grand piano"
+      ],
+      "objects": [
+        "white tablecloth",
+        "place settings",
+        "glassware",
+        "silverware",
+        "candle holder",
+        "grand piano",
+        "wall sconce",
+        "decorative molding",
+        "chairs",
+        "tables",
+        "white napkin"
+      ],
+      "people": [
+        "person in plaid jacket seated at table",
+        "staff member in dark clothing",
+        "seated diners in background",
+        "man in tuxedo at piano",
+        "woman in background"
+      ],
+      "setting": "upscale restaurant with warm lighting, paneled walls, and decorative molding",
+      "confidence": 0.85
+    },
+    {
+      "t": 59.0,
+      "description": "A small chihuahua wearing a colorful beaded necklace is being held by a person in light-colored clothing.",
+      "actions": [
+        "person holding chihuahua",
+        "chihuahua looking upward"
+      ],
+      "objects": [
+        "colorful beaded necklace",
+        "light-colored clothing"
+      ],
+      "people": [
+        "unidentified person holding dog"
+      ],
+      "setting": "indoor",
+      "confidence": 0.92
+    },
+    {
+      "t": 62.0,
+      "description": "A person in a plaid jacket drinks from a red cup at a dining table in a warmly lit restaurant.",
+      "actions": [
+        "person drinking from red cup",
+        "seated diners eating",
+        "staff member moving in background"
+      ],
+      "objects": [
+        "red cup",
+        "white tablecloth",
+        "plated dish",
+        "glassware",
+        "silverware",
+        "place settings"
+      ],
+      "people": [
+        "person in plaid jacket",
+        "seated diners",
+        "staff member in background"
+      ],
+      "setting": "indoor restaurant dining room",
+      "confidence": 0.82
+    },
+    {
+      "t": 63.0,
+      "description": "A man in a vest and tie stands facing the camera in an elegantly lit dining room with white columns and warm lighting.",
+      "actions": [
+        "man standing and facing camera",
+        "diners seated in background"
+      ],
+      "objects": [
+        "white columns",
+        "warm lighting",
+        "white flowers",
+        "tables",
+        "chairs"
+      ],
+      "people": [
+        "man in vest and tie",
+        "seated diners in background"
+      ],
+      "setting": "upscale restaurant or banquet hall interior",
+      "confidence": 0.88
+    },
+    {
+      "t": 66.0,
+      "description": "A man in a vest and tie stands and sings or speaks in an elegant, warmly lit dining hall.",
+      "actions": [
+        "man singing or speaking",
+        "people seated in background"
+      ],
+      "objects": [
+        "vest",
+        "tie",
+        "white flowers",
+        "warm lighting",
+        "decorative molding"
+      ],
+      "people": [
+        "man in vest and tie",
+        "seated diners in background"
+      ],
+      "setting": "elegant indoor dining hall",
+      "confidence": 0.82
+    },
+    {
+      "t": 67.0,
+      "description": "A man in a vest and tie stands facing the camera in an elegant interior setting",
+      "actions": [
+        "standing",
+        "facing camera"
+      ],
+      "objects": [
+        "vest",
+        "tie",
+        "white shirt",
+        "decorative columns",
+        "warm lighting"
+      ],
+      "people": [
+        "man in vest and tie"
+      ],
+      "setting": "elegant interior with arched columns and warm lighting",
+      "confidence": 0.92
+    },
+    {
+      "t": 70.0,
+      "description": "A man in a plaid jacket sits at a set dining table in an elegant restaurant, holding a red cup while looking at the camera.",
+      "actions": [
+        "man sitting at table",
+        "holding red cup",
+        "diners eating in background"
+      ],
+      "objects": [
+        "white tablecloth",
+        "place settings",
+        "glassware",
+        "plated dish",
+        "red cup",
+        "plaid jacket",
+        "silverware",
+        "candle holder"
+      ],
+      "people": [
+        "man in plaid jacket at table",
+        "seated diners in background"
+      ],
+      "setting": "elegant restaurant with warm lighting, paneled walls, and decorative molding",
+      "confidence": 0.91
+    },
+    {
+      "t": 71.0,
+      "description": "A man in a vest and tie stands in an elegant, warmly lit dining room looking upward",
+      "actions": [
+        "man standing",
+        "man looking upward"
+      ],
+      "objects": [
+        "vest",
+        "tie",
+        "warm lighting",
+        "decorative molding",
+        "paneled wall"
+      ],
+      "people": [
+        "man in vest and tie"
+      ],
+      "setting": "upscale restaurant interior",
+      "confidence": 0.88
+    },
+    {
+      "t": 74.0,
+      "description": "A man in a plaid jacket sits alone at a white-tablecloth table in an elegant restaurant, cutting into a plated dish with a ketchup bottle nearby.",
+      "actions": [
+        "man cutting food",
+        "diners seated in background",
+        "man focusing on plate"
+      ],
+      "objects": [
+        "white tablecloth",
+        "plated dish",
+        "condiment bottle",
+        "glassware",
+        "silverware",
+        "white napkin",
+        "candle holder",
+        "place settings"
+      ],
+      "people": [
+        "man in plaid jacket",
+        "seated diners in background"
+      ],
+      "setting": "upscale restaurant with warm lighting and decorative molding",
+      "confidence": 0.91
+    },
+    {
+      "t": 75.0,
+      "description": "A Heinz Tomato Ketchup bottle sits on a dining table with an Ed Sheeran x Heinz text overlay in the background.",
+      "actions": [
+        "bottle displayed on table"
+      ],
+      "objects": [
+        "condiment bottle",
+        "white tablecloth",
+        "glassware",
+        "text overlay"
+      ],
+      "people": [],
+      "setting": "restaurant dining table",
+      "confidence": 0.95
+    },
+    {
+      "t": 78.0,
+      "description": "A Heinz Tomato Ketchup bottle sits on a restaurant table with an Ed Sheeran x Heinz text overlay visible in the background.",
+      "actions": [
+        "ketchup bottle displayed on table",
+        "text overlay promoting Ed Sheeran x Heinz collaboration"
+      ],
+      "objects": [
+        "Heinz Tomato Ketchup bottle",
+        "white tablecloth",
+        "glassware",
+        "text overlay",
+        "condiment bottle"
+      ],
+      "people": [],
+      "setting": "upscale restaurant dining table",
+      "confidence": 0.95
+    }
+  ],
+  "scene_segments": [
+    {
+      "t_start": 0.0,
+      "t_end": 3.44,
+      "description": "A person in a plaid jacket is seen from behind, facing into an elegant restaurant or hotel lobby filled with white flowers, warm lighting, and staff members, while a text overlay reading 'Based on a Real DM from Ed Sheeran' appears on screen.",
+      "key_elements": [
+        "person in plaid jacket",
+        "text overlay",
+        "white flowers",
+        "warm lighting",
+        "staff members",
+        "tables",
+        "reception desk",
+        "paneled wall",
+        "decorative molding"
+      ],
+      "confidence": 0.92,
+      "id": 0
+    },
+    {
+      "t_start": 3.44,
+      "t_end": 6.6,
+      "description": "A person in a plaid jacket stands in an elegant entryway flanked by white flowers, followed by shots of a grand, warmly lit dining room where staff members move among tables of seated diners in a formal restaurant setting.",
+      "key_elements": [
+        "person in plaid jacket",
+        "white flowers",
+        "seated diners",
+        "staff members",
+        "tables",
+        "white tablecloth",
+        "warm lighting",
+        "decorative molding",
+        "place settings",
+        "grand dining room"
+      ],
+      "confidence": 0.92,
+      "id": 1
+    },
+    {
+      "t_start": 6.6,
+      "t_end": 7.68,
+      "description": "The segment begins with a wide shot of an elegant, upscale restaurant dining room with seated diners and staff members moving through the space, then cuts to a close-up of a warmly lit paneled wall with decorative molding and a wall sconce.",
+      "key_elements": [
+        "seated diners",
+        "staff members",
+        "white tablecloths",
+        "grand dining room",
+        "wall sconce",
+        "decorative molding",
+        "paneled wall",
+        "warm lighting",
+        "place settings"
+      ],
+      "confidence": 0.92,
+      "id": 2
+    },
+    {
+      "t_start": 7.68,
+      "t_end": 8.84,
+      "description": "The camera is focused on an elegant interior wall featuring decorative molding and a wall sconce emitting warm light, with no people visible in frame.",
+      "key_elements": [
+        "paneled wall",
+        "decorative molding",
+        "wall sconce",
+        "warm lighting"
+      ],
+      "confidence": 0.92,
+      "id": 3
+    },
+    {
+      "t_start": 8.84,
+      "t_end": 9.8,
+      "description": "The camera pans from an elegantly decorated wall with warm sconce lighting and decorative molding to reveal a formally set dining table with silverware, glassware, a white napkin, a candle holder, and white flowers.",
+      "key_elements": [
+        "paneled wall",
+        "wall sconce",
+        "decorative molding",
+        "white tablecloth",
+        "silverware",
+        "white napkin",
+        "glassware",
+        "candle holder",
+        "white flowers",
+        "warm lighting"
+      ],
+      "confidence": 0.92,
+      "id": 4
+    },
+    {
+      "t_start": 9.8,
+      "t_end": 12.12,
+      "description": "The segment shows a close-up of an elegantly set dining table with fine silverware, a white napkin, glassware, and white flowers, then cuts to a man in a tuxedo playing a grand piano in a warmly lit, upscale restaurant dining room with guests seated in the background.",
+      "key_elements": [
+        "place settings",
+        "silverware",
+        "white napkin",
+        "glassware",
+        "white flowers",
+        "candle holder",
+        "white tablecloth",
+        "man in tuxedo playing piano",
+        "grand piano",
+        "seated diners",
+        "warm lighting"
+      ],
+      "confidence": 0.93,
+      "id": 5
+    },
+    {
+      "t_start": 12.12,
+      "t_end": 16.08,
+      "description": "A man in a tuxedo is playing a grand piano in an elegantly lit dining room, with a woman seated at a table visible in the background.",
+      "key_elements": [
+        "man in tuxedo",
+        "grand piano",
+        "woman in background",
+        "warm lighting",
+        "white flowers",
+        "decorative molding",
+        "wall sconce"
+      ],
+      "confidence": 0.92,
+      "id": 6
+    },
+    {
+      "t_start": 16.08,
+      "t_end": 18.48,
+      "description": "The segment shows a man in a tuxedo looking downward, likely near a dining or event setting, alongside shots of a reception desk area labeled 'Super Posh' with a staff member behind it, flanked by a plant and white orchid arrangement on a side table.",
+      "key_elements": [
+        "man in tuxedo",
+        "reception desk",
+        "plant",
+        "white flowers",
+        "warm lighting",
+        "decorative molding",
+        "paneled wall"
+      ],
+      "confidence": 0.82,
+      "id": 7
+    },
+    {
+      "t_start": 18.48,
+      "t_end": 20.64,
+      "description": "A woman in a black dress is engaged in conversation with a person in a plaid jacket, speaking animatedly near what appears to be the restaurant reception area with white orchids and a plant visible in the background.",
+      "key_elements": [
+        "woman in black dress",
+        "person in plaid jacket",
+        "white flowers",
+        "reception desk",
+        "plant",
+        "colorful beaded necklace"
+      ],
+      "confidence": 0.91,
+      "id": 8
+    },
+    {
+      "t_start": 20.64,
+      "t_end": 23.48,
+      "description": "A smiling woman in a black dress is engaged in conversation with a man in a plaid jacket who has curly red hair, shown from behind in the foreground before the camera shifts to show his face in profile.",
+      "key_elements": [
+        "woman in black dress",
+        "man in plaid jacket",
+        "warm lighting",
+        "smiling",
+        "conversation"
+      ],
+      "confidence": 0.92,
+      "id": 9
+    },
+    {
+      "t_start": 23.48,
+      "t_end": 25.16,
+      "description": "A close-up shot of a red-haired, bearded man in a plaid jacket seen in profile, with another person partially visible in the foreground to his left, both appearing to watch or listen to something off-camera.",
+      "key_elements": [
+        "red-haired man",
+        "plaid jacket",
+        "beard",
+        "profile view",
+        "second person partially visible",
+        "warm lighting"
+      ],
+      "confidence": 0.82,
+      "id": 10
+    },
+    {
+      "t_start": 25.16,
+      "t_end": 27.44,
+      "description": "Two staff members attend to a seated diner at a white-tablecloth table in an elegant dining room, while a man in a vest and tie appears in the foreground in a separate shot.",
+      "key_elements": [
+        "staff members",
+        "white tablecloth",
+        "seated diner",
+        "glassware",
+        "man in vest and tie",
+        "warm lighting",
+        "decorative molding",
+        "place settings"
+      ],
+      "confidence": 0.82,
+      "id": 11
+    },
+    {
+      "t_start": 27.44,
+      "t_end": 31.28,
+      "description": "A man in a vest and tie stands in an elegantly lit interior space with decorative columns and warm lighting, appearing to speak or present while facing the camera.",
+      "key_elements": [
+        "man in vest and tie",
+        "vest",
+        "tie",
+        "warm lighting",
+        "decorative molding",
+        "wall sconce"
+      ],
+      "confidence": 0.91,
+      "id": 12
+    },
+    {
+      "t_start": 31.28,
+      "t_end": 35.28,
+      "description": "A man with curly red hair smiles and looks around in a restaurant setting, followed by a staff member in a vest and tie presenting a silver cloche in an elegant dining room.",
+      "key_elements": [
+        "man in plaid jacket",
+        "silver cloche",
+        "man in vest and tie",
+        "warm lighting",
+        "wall sconce",
+        "seated diners",
+        "paneled wall"
+      ],
+      "confidence": 0.88,
+      "id": 13
+    },
+    {
+      "t_start": 35.28,
+      "t_end": 37.16,
+      "description": "A man in a plaid jacket sits alone at a white-tablecloth dining table in an upscale restaurant, looking up as a staff member approaches holding a silver cloche overhead.",
+      "key_elements": [
+        "person in plaid jacket",
+        "white tablecloth",
+        "silver cloche",
+        "glassware",
+        "place settings",
+        "seated diners",
+        "warm lighting",
+        "paneled wall",
+        "wall sconce",
+        "staff members"
+      ],
+      "confidence": 0.91,
+      "id": 14
+    },
+    {
+      "t_start": 37.16,
+      "t_end": 44.0,
+      "description": "A man in a vest and tie is shown in close-up speaking or reacting expressively in what appears to be an elegant dining room with warm lighting and decorative ceiling details.",
+      "key_elements": [
+        "man in vest and tie",
+        "vest",
+        "tie",
+        "warm lighting",
+        "decorative molding"
+      ],
+      "confidence": 0.92,
+      "id": 15
+    },
+    {
+      "t_start": 44.0,
+      "t_end": 46.24,
+      "description": "A person in a plaid jacket sits alone at a table in an upscale restaurant dining room, while a person in a white chef uniform stands near a glass door in what appears to be a separate shot within the same segment.",
+      "key_elements": [
+        "person in plaid jacket",
+        "white tablecloth",
+        "glassware",
+        "place settings",
+        "person in white chef uniform",
+        "glass door",
+        "plant",
+        "warm lighting",
+        "paneled wall"
+      ],
+      "confidence": 0.82,
+      "id": 16
+    },
+    {
+      "t_start": 46.24,
+      "t_end": 47.92,
+      "description": "A person in a white chef uniform stands near a glass door while in the foreground a person in a plaid jacket sits at a table with glassware and a plated dish, with seated diners visible in the background of what appears to be an upscale restaurant.",
+      "key_elements": [
+        "person in white chef uniform",
+        "glass door",
+        "person in plaid jacket",
+        "plated dish",
+        "glassware",
+        "seated diners",
+        "white tablecloth",
+        "warm lighting"
+      ],
+      "confidence": 0.82,
+      "id": 17
+    },
+    {
+      "t_start": 47.92,
+      "t_end": 51.36,
+      "description": "A person in a plaid jacket sits alone at a elegantly set dining table, leaning forward and holding a small chihuahua while other diners are visible in the background.",
+      "key_elements": [
+        "person in plaid jacket",
+        "small chihuahua",
+        "white tablecloth",
+        "glassware",
+        "plated dish",
+        "seated diners",
+        "place settings",
+        "warm lighting",
+        "paneled wall"
+      ],
+      "confidence": 0.88,
+      "id": 18
+    },
+    {
+      "t_start": 51.36,
+      "t_end": 52.36,
+      "description": "Two elegantly dressed women are seated at a table in an upscale dining setting, with one woman in a plaid jacket and another in light-colored clothing holding a small chihuahua, both looking off to the side with serious expressions.",
+      "key_elements": [
+        "woman in plaid jacket",
+        "small chihuahua",
+        "white flowers",
+        "place settings",
+        "glassware",
+        "white tablecloth",
+        "paneled wall",
+        "warm lighting"
+      ],
+      "confidence": 0.92,
+      "id": 19
+    },
+    {
+      "t_start": 52.36,
+      "t_end": 53.64,
+      "description": "Two elegantly dressed women sit at a table in a upscale restaurant, one holding a small chihuahua, while a person in a plaid jacket leans over an adjacent table applying condiment to a plated dish.",
+      "key_elements": [
+        "woman in plaid jacket",
+        "small chihuahua",
+        "white flowers",
+        "place settings",
+        "condiment bottle",
+        "plated dish",
+        "white tablecloth",
+        "seated diners",
+        "warm lighting",
+        "paneled wall"
+      ],
+      "confidence": 0.87,
+      "id": 20
+    },
+    {
+      "t_start": 53.64,
+      "t_end": 55.24,
+      "description": "A person in a plaid jacket is squeezing a condiment bottle (appears to be Heinz ketchup) over a plated dish on a white tablecloth in a restaurant setting.",
+      "key_elements": [
+        "woman in plaid jacket",
+        "condiment bottle",
+        "plated dish",
+        "white tablecloth",
+        "warm lighting"
+      ],
+      "confidence": 0.92,
+      "id": 21
+    },
+    {
+      "t_start": 55.24,
+      "t_end": 57.16,
+      "description": "A man in a plaid jacket sits alone at a white-tablecloth table in an upscale restaurant, appearing to use his phone, while a staff member in a white uniform stands nearby attending to him.",
+      "key_elements": [
+        "person in plaid jacket",
+        "white tablecloth",
+        "staff members",
+        "white uniform",
+        "place settings",
+        "glassware",
+        "seated diners",
+        "warm lighting",
+        "paneled wall",
+        "white flowers"
+      ],
+      "confidence": 0.88,
+      "id": 22
+    },
+    {
+      "t_start": 57.16,
+      "t_end": 58.24,
+      "description": "A person in a plaid jacket sits alone at a white-tablecloth table in an elegant restaurant, appearing to interact with something on the table while a staff member stands nearby and other diners are visible in the background.",
+      "key_elements": [
+        "person in plaid jacket",
+        "white tablecloth",
+        "seated diners",
+        "staff members",
+        "place settings",
+        "glassware",
+        "warm lighting",
+        "decorative molding",
+        "paneled wall"
+      ],
+      "confidence": 0.88,
+      "id": 23
+    },
+    {
+      "t_start": 58.24,
+      "t_end": 60.72,
+      "description": "A person in a plaid jacket sits alone at a white-tablecloth dining table in an elegant restaurant, while nearby a small chihuahua wearing a colorful beaded necklace is held by someone in light-colored clothing.",
+      "key_elements": [
+        "person in plaid jacket",
+        "white tablecloth",
+        "small chihuahua",
+        "colorful beaded necklace",
+        "light-colored clothing",
+        "seated diners",
+        "warm lighting",
+        "elegant restaurant"
+      ],
+      "confidence": 0.88,
+      "id": 24
+    },
+    {
+      "t_start": 60.72,
+      "t_end": 62.2,
+      "description": "A small chihuahua wearing a colorful beaded necklace is being held by a person in light-colored clothing, while at a nearby dining table a person in a plaid jacket is drinking from a red cup with a plated dish and glassware in front of them.",
+      "key_elements": [
+        "small chihuahua",
+        "colorful beaded necklace",
+        "light-colored clothing",
+        "person in plaid jacket",
+        "red cup",
+        "plated dish",
+        "glassware",
+        "white tablecloth",
+        "seated diners",
+        "staff members in background"
+      ],
+      "confidence": 0.88,
+      "id": 25
+    },
+    {
+      "t_start": 62.2,
+      "t_end": 64.24,
+      "description": "A man in a vest and tie stands prominently in an elegant, warmly lit dining room, while in a separate close-up shot a person in a plaid jacket drinks from a red cup at a table with place settings and a plated dish.",
+      "key_elements": [
+        "man in vest and tie",
+        "plaid jacket",
+        "red cup",
+        "plated dish",
+        "white tablecloth",
+        "place settings",
+        "warm lighting",
+        "decorative molding",
+        "white flowers",
+        "seated diners"
+      ],
+      "confidence": 0.85,
+      "id": 26
+    },
+    {
+      "t_start": 64.24,
+      "t_end": 69.88,
+      "description": "A man in a vest and tie stands in an elegant, warmly lit hall with decorative arched columns and white flowers visible in the background, appearing to speak or sing directly toward the camera.",
+      "key_elements": [
+        "man in vest and tie",
+        "vest",
+        "tie",
+        "white flowers",
+        "decorative molding",
+        "warm lighting"
+      ],
+      "confidence": 0.91,
+      "id": 27
+    },
+    {
+      "t_start": 69.88,
+      "t_end": 72.0,
+      "description": "A man in a plaid jacket sits at a elegantly set dining table holding a small red condiment bottle, while in the background seated diners and staff are visible; the scene cuts to a close-up of a man in a vest and tie looking upward.",
+      "key_elements": [
+        "person in plaid jacket",
+        "red cup",
+        "plated dish",
+        "white tablecloth",
+        "glassware",
+        "seated diners",
+        "man in vest and tie",
+        "condiment bottle",
+        "warm lighting",
+        "place settings"
+      ],
+      "confidence": 0.82,
+      "id": 28
+    },
+    {
+      "t_start": 72.0,
+      "t_end": 73.96,
+      "description": "A man in a vest and tie is shown in close-up facing slightly upward, then the camera cuts to show a man in a plaid jacket seated at a white-tablecloth dining table, cutting into a plated dish with a condiment bottle (ketchup) beside him amid glassware and seated diners in the background.",
+      "key_elements": [
+        "man in vest and tie",
+        "plaid jacket",
+        "plated dish",
+        "white tablecloth",
+        "condiment bottle",
+        "glassware",
+        "seated diners",
+        "warm lighting",
+        "place settings"
+      ],
+      "confidence": 0.9,
+      "id": 29
+    },
+    {
+      "t_start": 73.96,
+      "t_end": 76.6,
+      "description": "Ed Sheeran is seated at a fine dining table in an upscale restaurant, applying Heinz Tomato Ketchup to his plated dish, followed by a close-up of the Heinz ketchup bottle with an 'Ed Sheeran x Heinz' branded text overlay.",
+      "key_elements": [
+        "person in plaid jacket",
+        "Heinz Tomato Ketchup bottle",
+        "text overlay",
+        "plated dish",
+        "white tablecloth",
+        "glassware",
+        "place settings",
+        "warm lighting",
+        "seated diners",
+        "fine dining restaurant"
+      ],
+      "confidence": 0.95,
+      "id": 30
+    },
+    {
+      "t_start": 76.6,
+      "t_end": 79.064,
+      "description": "A close-up shot of a Heinz Tomato Ketchup bottle on a dining table, with a text overlay showing 'Ed Sheeran x Heinz' branding, indicating this is a promotional or advertisement segment.",
+      "key_elements": [
+        "condiment bottle",
+        "white tablecloth",
+        "text overlay",
+        "glassware",
+        "place settings"
+      ],
+      "confidence": 0.97,
+      "id": 31
+    }
+  ],
+  "justification_timeline": [
+    {
+      "t": 0.0,
+      "justification": "The opening shot establishes the premise of the ad: a person (implied to be Ed Sheeran) entering a posh restaurant, while the text overlay 'Based on a Real DM from Ed Sheeran' immediately hooks viewers with a celebrity connection and signals this is a humorous, relatable story."
+    },
+    {
+      "t": 2.0,
+      "justification": "Continuing the establishment of the setting and premise, the full text overlay 'Based on a real DM from Ed Sheeran' is displayed clearly, ensuring viewers understand the celebrity context before the narrative unfolds."
+    },
+    {
+      "t": 3.0,
+      "justification": "This shot reinforces the elegance and grandeur of the venue by showing the person framed by white flower arrangements and ornate decor, setting up the contrast between the upscale environment and Ed Sheeran's presumably casual request."
+    },
+    {
+      "t": 6.0,
+      "justification": "A wide establishing shot of the grand restaurant interior\u2014staff serving guests, classical architecture, white tablecloths\u2014emphasizes the extreme poshness of the venue, which is essential to understanding the comedic contrast with the DM's content."
+    },
+    {
+      "t": 7.0,
+      "justification": "A close-up of the elegant paneled wall and wall sconce reinforces the upscale atmosphere of the restaurant, building the sense that this is an extraordinarily fancy establishment."
+    },
+    {
+      "t": 10.0,
+      "justification": "A detailed close-up of the formal place setting\u2014silverware, glassware, candle holder, white flowers\u2014underscores the restaurant's high-end nature, amplifying the comedic contrast when Ed Sheeran's presumably un-posh request is revealed."
+    },
+    {
+      "t": 11.0,
+      "justification": "A tuxedo-clad pianist playing a grand piano in the dining room further elevates the restaurant's prestige and formality, deepening the comedic setup about how out-of-place a casual DM request would be in this context."
+    },
+    {
+      "t": 14.0,
+      "justification": "Continued shots of the pianist performing reinforce the restaurant's sophisticated ambiance, maintaining the visual contrast being built before the punchline of Ed Sheeran's actual DM request is delivered."
+    },
+    {
+      "t": 15.0,
+      "justification": "Showing the man in a tuxedo at a dining table with a woman in the background continues to build the opulent, formal atmosphere of the restaurant setting that makes Ed Sheeran's casual DM all the more amusing."
+    },
+    {
+      "t": 18.0,
+      "justification": "The reception desk labeled (implied) 'Super Posh' with orchids and a plant signals the restaurant's high-end branding, grounding the viewer in just how fancy the establishment is\u2014key to the ad's humor."
+    },
+    {
+      "t": 19.0,
+      "justification": "The woman in a black dress conversing with the person in a plaid jacket likely represents restaurant staff greeting Ed Sheeran, introducing the human interaction that will lead to fulfilling his unconventional DM request."
+    },
+    {
+      "t": 22.0,
+      "justification": "The woman's smile during conversation with the plaid-jacketed person (Ed Sheeran) suggests a warm, perhaps amused reception, hinting that the staff is accommodating an unusual request with professionalism and good humor."
+    },
+    {
+      "t": 23.0,
+      "justification": "The first clear profile view of the red-haired, bearded man confirms the identity of the person as Ed Sheeran, paying off the earlier text overlay and giving viewers a recognizable face to follow through the narrative."
+    },
+    {
+      "t": 26.0,
+      "justification": "Staff members attending attentively to Ed Sheeran at his table highlights the restaurant's exceptional service, which makes the fulfillment of his unusual DM request (likely involving ketchup or the chihuahua) even more comedic."
+    },
+    {
+      "t": 27.0,
+      "justification": "The man in a vest and tie\u2014likely a head waiter or manager\u2014is introduced as a key character who will react to and fulfill Ed Sheeran's request, setting up his expressive reactions later in the video."
+    },
+    {
+      "t": 30.0,
+      "justification": "A sustained shot of the staff member in vest and tie establishes him as a central comedic character whose formal demeanor will contrast with the absurdity of Ed Sheeran's request."
+    },
+    {
+      "t": 31.0,
+      "justification": "Ed Sheeran smiling and looking around the restaurant conveys his delight and anticipation, suggesting he is genuinely enjoying the experience and perhaps waiting to see how the restaurant handles his unconventional DM."
+    },
+    {
+      "t": 34.0,
+      "justification": "The waiter presenting a silver cloche is a classic fine-dining reveal moment, building theatrical tension about what is under the cover\u2014likely the comedic fulfillment of Ed Sheeran's DM request."
+    },
+    {
+      "t": 35.0,
+      "justification": "Ed Sheeran looking up as a staff member dramatically lifts a silver cloche over his table is the narrative climax setup\u2014the formal presentation of whatever he requested via DM, amplifying the comedic contrast."
+    },
+    {
+      "t": 38.0,
+      "justification": "The head waiter's reaction shot (looking to the side) suggests he is witnessing or responding to the reveal, building comedic suspense through his formal demeanor facing an absurd situation."
+    },
+    {
+      "t": 39.0,
+      "justification": "The head waiter's expressive, exaggerated facial reaction conveys comedic disbelief or resignation at whatever Ed Sheeran requested, delivering humor through his contrast with the restaurant's formality."
+    },
+    {
+      "t": 42.0,
+      "justification": "The waiter speaking or reacting open-mouthed continues the comedic reaction sequence, likely narrating or responding to the absurdity of fulfilling Ed Sheeran's DM in this extremely upscale environment."
+    },
+    {
+      "t": 43.0,
+      "justification": "Ed Sheeran sitting alone at the elegantly set table while staff move around him reinforces his position as a regular person in an extraordinary setting, grounding the relatable humor of the ad."
+    },
+    {
+      "t": 46.0,
+      "justification": "A person in a white chef uniform appearing near a glass door suggests the kitchen is involved in fulfilling Ed Sheeran's request, showing the full restaurant operation mobilized for his unusual DM."
+    },
+    {
+      "t": 47.0,
+      "justification": "Ed Sheeran looking down at his plate suggests his request has been fulfilled, while the elegant surroundings maintain the comedic contrast between the venue's grandeur and whatever casual thing he asked for."
+    },
+    {
+      "t": 50.0,
+      "justification": "The reveal that Ed Sheeran is holding a small chihuahua at the dining table is the comedic punchline\u2014his DM apparently requested bringing a dog to this ultra-posh restaurant, with a grand piano visible in the background emphasizing the absurdity."
+    },
+    {
+      "t": 51.0,
+      "justification": "Two women at the table, one holding the chihuahua and looking toward camera, extends the comedic moment and shows the dog is now part of the dining experience, confirming this was Ed Sheeran's unusual DM request."
+    },
+    {
+      "t": 54.0,
+      "justification": "Ed Sheeran squeezing what appears to be ketchup (a Heinz product) onto his fine dining plate is a second comedic reveal\u2014combining the mundane condiment with upscale food\u2014likely tying directly to the DM's content and potentially the brand being advertised."
+    },
+    {
+      "t": 55.0,
+      "justification": "Ed Sheeran at the table with a staff member attending him while he appears to use his phone connects back to the DM premise and likely showcases him enjoying the result of his request (ketchup on fine dining), reinforcing the ad's humor."
+    },
+    {
+      "t": 58.0,
+      "justification": "A wide shot showing Ed Sheeran at his table, the grand piano, and diners in the background consolidates all elements of the ad's comedic scenario\u2014celebrity, ultra-posh restaurant, live music, and his casual DM request fulfilled."
+    },
+    {
+      "t": 59.0,
+      "justification": "The close-up of the chihuahua wearing a colorful beaded necklace is a charming, humorous final beat\u2014the dog has been dressed up to match the restaurant's formality, delivering a visual punchline that ends the minute on a lighthearted note."
+    },
+    {
+      "t": 62.0,
+      "justification": "Shows Ed Sheeran (in plaid jacket) casually dining at an upscale restaurant and drinking from a red cup, establishing him as a regular person who enjoys restaurants \u2014 setting up the humorous contrast of bringing ketchup to a fine dining setting."
+    },
+    {
+      "t": 63.0,
+      "justification": "Introduces the man in vest and tie (likely a ma\u00eetre d' or restaurant staff) standing in the elegant dining room, establishing the upscale, formal restaurant environment that contrasts with Ed Sheeran's casual ketchup habit."
+    },
+    {
+      "t": 66.0,
+      "justification": "The man in vest and tie singing or speaking directly to camera adds a performative, theatrical element \u2014 likely part of a comedic or musical narrative beat in the ad, reinforcing the upscale restaurant atmosphere."
+    },
+    {
+      "t": 67.0,
+      "justification": "Close-up of the man in vest and tie facing camera in the elegant interior reinforces the formal, high-end restaurant setting, heightening the comedic contrast of Ed Sheeran insisting on Heinz ketchup in such a venue."
+    },
+    {
+      "t": 70.0,
+      "justification": "Ed Sheeran is shown holding a red cup (mirroring his ketchup bottle) at the fine dining table, reinforcing his everyman persona \u2014 someone who brings Heinz ketchup even to upscale restaurants, the core premise of the campaign."
+    },
+    {
+      "t": 71.0,
+      "justification": "The man in vest and tie looking upward in the elegant dining room suggests a reaction shot \u2014 possibly exasperation or disbelief at Ed Sheeran's ketchup usage in his restaurant, driving the comedic narrative."
+    },
+    {
+      "t": 74.0,
+      "justification": "Ed Sheeran is shown cutting into his fine dining dish with a Heinz ketchup bottle visibly on the table beside him \u2014 the key comedic payoff moment showing him applying ketchup to upscale food, central to the campaign's message."
+    },
+    {
+      "t": 75.0,
+      "justification": "Close-up of the Heinz Tomato Ketchup bottle on the restaurant table with the 'Ed Sheeran x Heinz' text overlay directly brands the product and collaboration, serving as the advertisement's explicit product reveal and branding moment."
+    },
+    {
+      "t": 78.0,
+      "justification": "Sustained close-up of the Heinz ketchup bottle with the 'Ed Sheeran x Heinz' text overlay acts as the closing branding shot, cementing the product identity and collaboration in the viewer's memory as the ad concludes."
+    }
+  ],
+  "background_updates": [
+    {
+      "t": 0.0,
+      "narration": "A woman in a plaid jacket dines in an upscale restaurant setting, apparently part of a comedic or dramatic skit inspired by a real direct message."
+    },
+    {
+      "t": 5.0,
+      "narration": "The woman in the plaid jacket appears to be in an upscale restaurant, with the scene framed as a comedic skit \"Based on a Real DM from Ed Sheeran,\" suggesting she's reenacting or responding to a message from the musician."
+    },
+    {
+      "t": 10.0,
+      "narration": "The scene continues in the elegant restaurant, with the woman in the plaid jacket navigating the dining room as part of the comedic skit based on Ed Sheeran's DM, with close-up shots highlighting the upscale table settings and decor."
+    },
+    {
+      "t": 15.0,
+      "narration": "The woman in the plaid jacket continues her comedic journey through the upscale restaurant, with the elegant ambiance\u2014including the tuxedo-clad pianist and refined table settings\u2014contrasting humorously with the skit's premise."
+    },
+    {
+      "t": 20.0,
+      "narration": "The woman in the plaid jacket appears to be interacting with staff at the reception desk, while the elegant restaurant setting with its piano, flowers, and formal decor continues to provide a humorous backdrop to the comedic skit."
+    },
+    {
+      "t": 25.0,
+      "narration": "The woman in the plaid jacket appears to be conversing with a man with curly red hair, possibly a staff member or another character, continuing the comedic interaction in the elegant restaurant setting."
+    },
+    {
+      "t": 30.0,
+      "narration": "The man in the vest and tie appears to be addressing or interacting with someone in the elegant restaurant, while staff members continue attending to the dining area around him."
+    },
+    {
+      "t": 35.0,
+      "narration": "The red-haired, bearded man continues to observe his surroundings in the elegant dining room, while the man in the vest and tie appears to be presenting or serving a dish with a silver cloche nearby."
+    },
+    {
+      "t": 40.0,
+      "narration": "The man in the vest and tie continues to interact with diners in the elegant restaurant, while the silver cloche presentation appears to be concluding. The overall dining room atmosphere remains formal and bustling with seated guests."
+    },
+    {
+      "t": 45.0,
+      "narration": "The person in the plaid jacket remains seated at the dining table, continuing to be the focal point as restaurant staff move around them in the formal dining room setting."
+    },
+    {
+      "t": 50.0,
+      "narration": "The person in the plaid jacket continues to be seated at the dining table, with activity from staff and other diners ongoing in the formal restaurant environment."
+    },
+    {
+      "t": 55.0,
+      "narration": "The woman in the plaid jacket continues dining, having just seasoned her dish with a condiment bottle, while the formal restaurant atmosphere remains active with other diners and staff nearby."
+    },
+    {
+      "t": 60.0,
+      "narration": "The woman in the plaid jacket continues dining at the elegantly set table, interacting with items on the table while staff members in white uniforms attend nearby, and the small chihuahua with a colorful beaded necklace remains a notable presence at the gathering."
+    },
+    {
+      "t": 65.0,
+      "narration": "The dining scene continues with the man in the vest and tie remaining prominent in the elegantly lit room, as the person in the plaid jacket and the chihuahua with the beaded necklace remain part of the gathering among seated diners and attentive staff."
+    },
+    {
+      "t": 70.0,
+      "narration": "The dining scene continues with the man in the vest and tie and the person in the plaid jacket remaining central figures, while the chihuahua with the beaded necklace and other diners and staff maintain the lively atmosphere of the elegant restaurant."
+    },
+    {
+      "t": 75.0,
+      "narration": "The person in the plaid jacket continues dining, interacting with their meal, while the man in the vest and tie remains present in the elegant restaurant setting amid the ongoing lively atmosphere."
+    }
+  ],
+  "audio_segments": []
+}

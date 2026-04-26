@@ -1,0 +1,96 @@
+{
+  "groupVariants": [
+    {
+      "groupId": 0,
+      "label": "Affluent Professionals",
+      "summary": "High-income urban and suburban professionals aged 40–58, career-established, leaning female. Value quality, authenticity, and premium experiences.",
+      "variantUrl": "/media/processed/demo-001-group0.mp4",
+      "variantName": "demo-001-group0.mp4",
+      "context": {
+        "avgAge": 48,
+        "ageBucket": "45–60",
+        "topGenders": ["female", "male"],
+        "interests": ["premium dining", "wellness", "travel", "home improvement", "financial planning"],
+        "region": "US",
+        "isUrban": true,
+        "englishSpeaking": true
+      },
+      "research": {
+        "ok": true,
+        "insights": "Affluent 45–60 consumers respond strongly to authenticity and craft narratives. For food/beverage brands, provenance and quality cues outperform price messaging. Warm colour palettes and slower pacing signal premium positioning. This segment over-indexes on Connected TV and premium streaming — ad recall is 34% higher when the creative matches the platform's editorial tone.",
+        "citations": [
+          "https://nielseniq.com/global/en/insights/report/2025/premium-consumer-behaviour",
+          "https://thinkwithgoogle.com/consumer-insights/consumer-trends/affluent-audience-video"
+        ]
+      },
+      "changes": [
+        {"tool": "color_grade_video", "args": {"style": "warm_cinematic"}, "apply": true, "applied": true, "summary": "Warm cinematic grade — golden tones reinforce premium feel", "reason": "Affluent segment responds to warm, film-like colour for premium brands"},
+        {"tool": "change_speed_video", "args": {"changeTag": "slight_slowdown", "factor": 0.88}, "apply": true, "applied": true, "summary": "Slight slowdown (0.88×) for deliberate, confident pacing", "reason": "Older high-income viewers prefer measured pacing over fast cuts"},
+        {"tool": "add_text_overlay_video", "args": {"text": "Crafted for Every Moment", "position": "bottom_center", "font_size": 52}, "apply": true, "applied": true, "summary": "Overlay: 'Crafted for Every Moment'", "reason": "Quality/craft message resonates with this segment per research"}
+      ],
+      "planner": {"ok": true, "model": "anthropic/claude-sonnet-4.6"}
+    },
+    {
+      "groupId": 1,
+      "label": "Young Urban Creatives",
+      "summary": "Single renters aged 19–29 in major metro areas — students, early-career tech and creative workers. Mobile-first, trend-aware, value-driven.",
+      "variantUrl": "/media/processed/demo-001-group1.mp4",
+      "variantName": "demo-001-group1.mp4",
+      "context": {
+        "avgAge": 24,
+        "ageBucket": "18–30",
+        "topGenders": ["female", "non-binary"],
+        "interests": ["TikTok", "streetwear", "live music", "plant-based food", "side hustles"],
+        "region": "US",
+        "isUrban": true,
+        "englishSpeaking": true
+      },
+      "research": {
+        "ok": true,
+        "insights": "Gen Z and young Millennials engage most with fast-cut, high-energy content. Organic, lo-fi aesthetics outperform polished production in this segment — perceived authenticity is the primary trust signal. Text overlays with punchy, irreverent copy drive 2.1× higher share rate on short-form platforms. This audience skips ads after 3 seconds; front-load the brand moment.",
+        "citations": [
+          "https://sproutsocial.com/insights/genz-social-media-trends-2025",
+          "https://thinkwithgoogle.com/consumer-insights/consumer-trends/genz-video-attention"
+        ]
+      },
+      "changes": [
+        {"tool": "color_grade_video", "args": {"style": "high_contrast_cool"}, "apply": true, "applied": true, "summary": "High-contrast cool grade — punchy, social-native look", "reason": "Cool high-contrast palette matches Gen Z aesthetic preferences"},
+        {"tool": "change_speed_video", "args": {"changeTag": "fast", "factor": 1.18}, "apply": true, "applied": true, "summary": "Speed up 1.18× for high-energy pacing", "reason": "Fast cuts maintain attention for short-form mobile viewing"},
+        {"tool": "add_text_overlay_video", "args": {"text": "No Rules. Just Heinz.", "position": "center", "font_size": 64}, "apply": true, "applied": true, "summary": "Overlay: 'No Rules. Just Heinz.'", "reason": "Irreverent copy resonates with Gen Z brand voice expectations"}
+      ],
+      "planner": {"ok": true, "model": "anthropic/claude-sonnet-4.6"}
+    },
+    {
+      "groupId": 2,
+      "label": "Suburban Family Segment",
+      "summary": "Mid-income married parents aged 30–45 in suburban areas — homeowners with kids, practical and value-conscious but open to aspirational moments.",
+      "variantUrl": "/media/processed/demo-001-group2.mp4",
+      "variantName": "demo-001-group2.mp4",
+      "context": {
+        "avgAge": 37,
+        "ageBucket": "30–45",
+        "topGenders": ["female", "male"],
+        "interests": ["meal prep", "family activities", "home improvement", "sports", "budget travel"],
+        "region": "US",
+        "isUrban": false,
+        "englishSpeaking": true
+      },
+      "research": {
+        "ok": true,
+        "insights": "Suburban parents aged 30–45 are the heaviest CPG purchasers by household volume. Family togetherness and everyday ritual are the strongest emotional hooks — ads that show real family moments outperform aspirational lifestyle by 28% in purchase intent. Moderate pacing with clear product visibility and a functional headline drives highest conversion. This segment watches more Connected TV than any other.",
+        "citations": [
+          "https://nielseniq.com/global/en/insights/report/2025/cpg-family-purchase-behaviour",
+          "https://kantar.com/inspiration/fmcg/2025-family-advertising-effectiveness"
+        ]
+      },
+      "changes": [
+        {"tool": "color_grade_video", "args": {"style": "natural_warm"}, "apply": true, "applied": true, "summary": "Natural warm grade — approachable, everyday feel", "reason": "Warm natural tones signal authenticity and family comfort"},
+        {"tool": "add_text_overlay_video", "args": {"text": "Made for Family Moments", "position": "bottom_center", "font_size": 56}, "apply": true, "applied": true, "summary": "Overlay: 'Made for Family Moments'", "reason": "Family togetherness is the top purchase driver for this segment"},
+        {"tool": "add_text_overlay_video", "args": {"text": "Heinz — Always Good", "position": "top_right", "font_size": 36}, "apply": true, "applied": true, "summary": "Brand lock-up overlay top-right", "reason": "Early brand visibility reduces skip rate on CTV placements"}
+      ],
+      "planner": {"ok": true, "model": "anthropic/claude-sonnet-4.6"}
+    }
+  ],
+  "groupCount": 3,
+  "generatedAt": "2026-04-25T18:00:00+00:00"
+}

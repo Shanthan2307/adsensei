@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 120" width="480" height="120">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#080810"/>
+      <stop offset="100%" style="stop-color:#0f0f1a"/>
+    </linearGradient>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#6366f1"/>
+      <stop offset="50%" style="stop-color:#a78bfa"/>
+      <stop offset="100%" style="stop-color:#f472b6"/>
+    </linearGradient>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#6366f1;stop-opacity:0.3"/>
+      <stop offset="100%" style="stop-color:#f472b6;stop-opacity:0.3"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="softglow">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="480" height="120" rx="16" fill="url(#bg)"/>
+  <rect width="480" height="120" rx="16" fill="none" stroke="url(#grad1)" stroke-width="1" opacity="0.4"/>
+
+  <!-- Ambient glow blobs -->
+  <ellipse cx="60" cy="60" rx="80" ry="60" fill="#6366f1" opacity="0.07"/>
+  <ellipse cx="420" cy="60" rx="80" ry="60" fill="#f472b6" opacity="0.06"/>
+
+  <!-- Icon: film strip with AI spark -->
+  <g transform="translate(28, 24)">
+    <!-- Film strip body -->
+    <rect x="0" y="0" width="52" height="72" rx="6" fill="none" stroke="url(#grad1)" stroke-width="1.5"/>
+    <rect x="0" y="0" width="52" height="72" rx="6" fill="url(#grad2)"/>
+    <!-- Sprocket holes left -->
+    <rect x="4" y="6"  width="7" height="5" rx="1.5" fill="#6366f1" opacity="0.7"/>
+    <rect x="4" y="18" width="7" height="5" rx="1.5" fill="#6366f1" opacity="0.7"/>
+    <rect x="4" y="30" width="7" height="5" rx="1.5" fill="#6366f1" opacity="0.7"/>
+    <rect x="4" y="42" width="7" height="5" rx="1.5" fill="#6366f1" opacity="0.7"/>
+    <rect x="4" y="54" width="7" height="5" rx="1.5" fill="#6366f1" opacity="0.7"/>
+    <rect x="4" y="62" width="7" height="5" rx="1.5" fill="#6366f1" opacity="0.7"/>
+    <!-- Sprocket holes right -->
+    <rect x="41" y="6"  width="7" height="5" rx="1.5" fill="#f472b6" opacity="0.7"/>
+    <rect x="41" y="18" width="7" height="5" rx="1.5" fill="#f472b6" opacity="0.7"/>
+    <rect x="41" y="30" width="7" height="5" rx="1.5" fill="#f472b6" opacity="0.7"/>
+    <rect x="41" y="42" width="7" height="5" rx="1.5" fill="#f472b6" opacity="0.7"/>
+    <rect x="41" y="54" width="7" height="5" rx="1.5" fill="#f472b6" opacity="0.7"/>
+    <rect x="41" y="62" width="7" height="5" rx="1.5" fill="#f472b6" opacity="0.7"/>
+    <!-- Frame area -->
+    <rect x="14" y="10" width="24" height="52" rx="3" fill="#ffffff" opacity="0.04"/>
+    <!-- Play triangle -->
+    <polygon points="21,28 21,44 35,36" fill="url(#grad1)" opacity="0.9" filter="url(#glow)"/>
+    <!-- AI spark on top-right -->
+    <g transform="translate(38, -4)" filter="url(#softglow)">
+      <circle cx="8" cy="8" r="8" fill="#0f0f1a" stroke="url(#grad1)" stroke-width="1.2"/>
+      <text x="8" y="12" text-anchor="middle" font-size="9" fill="url(#grad1)" font-family="system-ui" font-weight="700">AI</text>
+    </g>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="102" y="56" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="38" font-weight="800" letter-spacing="-1.5" fill="url(#grad1)" filter="url(#glow)">
+    ADsensei
+  </text>
+
+  <!-- Tagline -->
+  <text x="103" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif"
+        font-size="12" font-weight="400" letter-spacing="3" fill="#ffffff" opacity="0.38"
+        text-decoration="none" font-style="normal">
+    AI VIDEO AD PERSONALISATION
+  </text>
+
+  <!-- Decorative dots (audience segments) -->
+  <circle cx="103" cy="96" r="3" fill="#6366f1" opacity="0.9"/>
+  <circle cx="113" cy="96" r="3" fill="#f472b6" opacity="0.9"/>
+  <circle cx="123" cy="96" r="3" fill="#34d399" opacity="0.9"/>
+  <line x1="130" y1="96" x2="420" y2="96" stroke="url(#grad1)" stroke-width="0.5" opacity="0.2"/>
+
+  <!-- Right badge -->
+  <g transform="translate(350, 82)">
+    <rect width="100" height="22" rx="11" fill="url(#grad2)" stroke="url(#grad1)" stroke-width="0.8"/>
+    <circle cx="14" cy="11" r="4" fill="#34d399" opacity="0.9"/>
+    <text x="24" y="15" font-family="'SF Mono', monospace" font-size="9" fill="#ffffff" opacity="0.7"
+          letter-spacing="1" font-weight="500">AGENT LIVE</text>
+  </g>
+</svg>

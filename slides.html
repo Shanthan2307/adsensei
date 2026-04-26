@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>ADsensei — AI Agent Economy Hackathon</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --indigo: #6366f1;
+    --pink:   #f472b6;
+    --green:  #34d399;
+    --bg:     #080810;
+    --card:   #0f0f1a;
+    --border: rgba(255,255,255,0.07);
+    --muted:  rgba(255,255,255,0.38);
+  }
+
+  html, body {
+    width: 100%; height: 100%;
+    background: var(--bg);
+    color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    overflow: hidden;
+  }
+
+  /* ── deck ── */
+  .deck { width: 100%; height: 100%; position: relative; }
+
+  .slide {
+    position: absolute; inset: 0;
+    display: flex; align-items: center; justify-content: center;
+    opacity: 0; pointer-events: none;
+    transition: opacity 0.55s cubic-bezier(.4,0,.2,1);
+    padding: 60px;
+  }
+  .slide.active { opacity: 1; pointer-events: auto; }
+
+  /* ── noise grain overlay ── */
+  .deck::before {
+    content: "";
+    position: fixed; inset: 0; z-index: 0;
+    background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.04'/%3E%3C/svg%3E");
+    pointer-events: none;
+  }
+
+  /* ── gradient blobs ── */
+  .blob {
+    position: fixed; border-radius: 50%; filter: blur(120px);
+    pointer-events: none; z-index: 0;
+    animation: drift 14s ease-in-out infinite alternate;
+  }
+  .blob-1 { width: 700px; height: 700px; background: rgba(99,102,241,.18); top: -200px; left: -200px; }
+  .blob-2 { width: 500px; height: 500px; background: rgba(244,114,182,.13); bottom: -150px; right: -100px; animation-delay: -7s; }
+  .blob-3 { width: 400px; height: 400px; background: rgba(52,211,153,.10); top: 40%; left: 55%; animation-delay: -3s; }
+
+  @keyframes drift {
+    from { transform: translate(0,0) scale(1); }
+    to   { transform: translate(40px, 30px) scale(1.08); }
+  }
+
+  /* ── content wrapper ── */
+  .content { position: relative; z-index: 1; width: 100%; max-width: 1100px; }
+
+  /* ── nav dots ── */
+  .dots {
+    position: fixed; bottom: 36px; left: 50%; transform: translateX(-50%);
+    display: flex; gap: 10px; z-index: 99;
+  }
+  .dot {
+    width: 8px; height: 8px; border-radius: 50%;
+    background: var(--muted); cursor: pointer;
+    transition: background .3s, transform .3s;
+    border: none;
+  }
+  .dot.on { background: var(--indigo); transform: scale(1.4); }
+
+  /* ── slide counter ── */
+  .counter {
+    position: fixed; top: 32px; right: 44px;
+    font-size: 11px; letter-spacing: .15em; text-transform: uppercase;
+    color: var(--muted); z-index: 99; font-family: 'SF Mono', monospace;
+  }
+
+  /* ── keyboard hint ── */
+  .hint {
+    position: fixed; bottom: 36px; right: 44px;
+    font-size: 11px; letter-spacing: .1em; text-transform: uppercase;
+    color: var(--muted); z-index: 99; font-family: 'SF Mono', monospace;
+  }
+
+  /* ── typography ── */
+  .eyebrow {
+    font-size: 11px; letter-spacing: .22em; text-transform: uppercase;
+    color: var(--indigo); font-family: 'SF Mono', monospace; font-weight: 500;
+  }
+  .grad {
+    background: linear-gradient(135deg, #fff 30%, var(--indigo) 70%, var(--pink) 100%);
+    -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .h1 { font-size: clamp(52px, 7vw, 86px); font-weight: 800; line-height: 1.04; letter-spacing: -.04em; }
+  .h2 { font-size: clamp(36px, 5vw, 58px); font-weight: 800; line-height: 1.08; letter-spacing: -.03em; }
+  .h3 { font-size: clamp(22px, 3vw, 30px); font-weight: 700; line-height: 1.2; }
+  .body { font-size: 17px; color: var(--muted); line-height: 1.65; }
+  .body strong { color: #fff; font-weight: 600; }
+
+  /* ── pill ── */
+  .pill {
+    display: inline-flex; align-items: center; gap: 7px;
+    padding: 6px 14px; border-radius: 999px;
+    font-size: 12px; font-weight: 600; letter-spacing: .06em; text-transform: uppercase;
+    border: 1px solid var(--border);
+  }
+  .pill-indigo { background: rgba(99,102,241,.12); color: var(--indigo); border-color: rgba(99,102,241,.3); }
+  .pill-pink   { background: rgba(244,114,182,.10); color: var(--pink);   border-color: rgba(244,114,182,.28); }
+  .pill-green  { background: rgba(52,211,153,.10);  color: var(--green);  border-color: rgba(52,211,153,.28); }
+  .pill-white  { background: rgba(255,255,255,.05); color: rgba(255,255,255,.7); }
+  .dot-live { width: 7px; height: 7px; border-radius: 50%; background: currentColor; animation: pulse-dot 1.4s ease-in-out infinite; }
+  @keyframes pulse-dot { 0%,100%{opacity:1;transform:scale(1)} 50%{opacity:.5;transform:scale(.7)} }
+
+  /* ── card ── */
+  .card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 28px 32px;
+  }
+  .card-glow { box-shadow: 0 0 0 1px rgba(99,102,241,.15), 0 24px 80px rgba(99,102,241,.08); }
+
+  /* ── divider ── */
+  .divider { width: 1px; background: var(--border); align-self: stretch; }
+
+  /* ── grid helpers ── */
+  .flex  { display: flex; }
+  .col   { flex-direction: column; }
+  .gap2  { gap: 8px; }
+  .gap3  { gap: 12px; }
+  .gap4  { gap: 16px; }
+  .gap6  { gap: 24px; }
+  .gap8  { gap: 32px; }
+  .gap10 { gap: 40px; }
+  .gap12 { gap: 48px; }
+  .items-center { align-items: center; }
+  .items-start  { align-items: flex-start; }
+  .justify-between { justify-content: space-between; }
+  .wrap { flex-wrap: wrap; }
+  .mt2 { margin-top: 8px; }
+  .mt3 { margin-top: 12px; }
+  .mt4 { margin-top: 16px; }
+  .mt6 { margin-top: 24px; }
+  .mt8 { margin-top: 32px; }
+  .mt10 { margin-top: 40px; }
+
+  /* ── number stat ── */
+  .stat-num { font-size: 52px; font-weight: 800; letter-spacing: -.04em; line-height: 1; }
+  .stat-label { font-size: 11px; letter-spacing: .18em; text-transform: uppercase; color: var(--muted); margin-top: 4px; }
+
+  /* ── step ── */
+  .step {
+    display: flex; align-items: flex-start; gap: 18px;
+  }
+  .step-num {
+    flex-shrink: 0;
+    width: 36px; height: 36px; border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    font-size: 13px; font-weight: 700;
+    background: rgba(99,102,241,.15); color: var(--indigo);
+    border: 1px solid rgba(99,102,241,.3);
+  }
+  .step-body { flex: 1; }
+  .step-title { font-size: 15px; font-weight: 600; }
+  .step-sub   { font-size: 13px; color: var(--muted); margin-top: 3px; }
+
+  /* ── tech badge ── */
+  .tech {
+    background: var(--card); border: 1px solid var(--border); border-radius: 14px;
+    padding: 20px 24px; display: flex; flex-direction: column; gap: 8px;
+    flex: 1; min-width: 180px;
+  }
+  .tech-icon { font-size: 26px; }
+  .tech-name { font-size: 15px; font-weight: 700; }
+  .tech-role { font-size: 12px; color: var(--muted); }
+
+  /* ── slide 1 specific ── */
+  .hero-tagline { font-size: 19px; color: var(--muted); max-width: 580px; line-height: 1.6; }
+  .hero-tagline strong { color: #fff; }
+
+  /* ── arrow connector ── */
+  .arrow { color: var(--muted); font-size: 20px; flex-shrink: 0; align-self: center; }
+
+  /* ── glow line ── */
+  .glow-line {
+    width: 80px; height: 3px; border-radius: 99px;
+    background: linear-gradient(90deg, var(--indigo), var(--pink));
+    margin-bottom: 24px;
+  }
+
+  /* ── logo ── */
+  .logo { font-size: 13px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: #fff; }
+
+  /* enter animations */
+  .slide.active .animate { animation: fadeUp .55s cubic-bezier(.4,0,.2,1) both; }
+  .slide.active .animate:nth-child(1) { animation-delay: .05s; }
+  .slide.active .animate:nth-child(2) { animation-delay: .15s; }
+  .slide.active .animate:nth-child(3) { animation-delay: .25s; }
+  .slide.active .animate:nth-child(4) { animation-delay: .35s; }
+  .slide.active .animate:nth-child(5) { animation-delay: .45s; }
+  .slide.active .animate:nth-child(6) { animation-delay: .55s; }
+  @keyframes fadeUp { from { opacity:0; transform:translateY(24px); } to { opacity:1; transform:none; } }
+</style>
+</head>
+<body>
+
+<!-- ambient blobs -->
+<div class="blob blob-1"></div>
+<div class="blob blob-2"></div>
+<div class="blob blob-3"></div>
+
+<div class="deck" id="deck">
+
+  <!-- ══════════════════════════════════════════════
+       SLIDE 1 — HOOK
+  ══════════════════════════════════════════════ -->
+  <div class="slide active" id="s1">
+    <div class="content">
+      <div class="flex col gap6">
+
+        <div class="animate flex gap3 wrap">
+          <div class="pill pill-indigo"><span class="dot-live"></span> AI Agent Economy Hackathon 2026</div>
+          <div class="pill pill-green"><span class="dot-live"></span> Live Demo</div>
+        </div>
+
+        <div class="animate">
+          <div class="h1">
+            <span class="grad">One video.<br>Every audience.</span>
+          </div>
+        </div>
+
+        <div class="animate hero-tagline">
+          Upload <strong>one master ad</strong> and a CSV of audience profiles.
+          ADsensei clusters them, runs market research per segment, and
+          renders <strong>targeted video variants</strong> — automatically.
+        </div>
+
+        <div class="animate flex gap8 wrap mt2">
+          <div>
+            <div class="stat-num grad">10×</div>
+            <div class="stat-label">Faster than manual</div>
+          </div>
+          <div class="divider"></div>
+          <div>
+            <div class="stat-num grad">$0</div>
+            <div class="stat-label">Per variant after setup</div>
+          </div>
+          <div class="divider"></div>
+          <div>
+            <div class="stat-num grad">∞</div>
+            <div class="stat-label">Audience segments</div>
+          </div>
+        </div>
+
+        <div class="animate flex gap3 wrap mt2">
+          <div class="pill pill-white">🎬 VLM Frame Analysis</div>
+          <div class="pill pill-white">🧠 K-Means Clustering</div>
+          <div class="pill pill-white">🔍 Perplexity Research</div>
+          <div class="pill pill-white">🎞 FFmpeg Rendering</div>
+          <div class="pill pill-white">🤖 MCP Agent Tools</div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════
+       SLIDE 2 — HOW IT WORKS
+  ══════════════════════════════════════════════ -->
+  <div class="slide" id="s2">
+    <div class="content">
+
+      <div class="animate eyebrow mt4">How it works</div>
+      <div class="animate h2 mt3">
+        A full pipeline in <span class="grad">one API call</span>
+      </div>
+
+      <div class="animate flex gap4 mt10" style="align-items:stretch">
+
+        <!-- Pipeline steps -->
+        <div class="flex col gap4" style="flex:1.2">
+          <div class="step animate card" style="padding:20px 24px">
+            <div class="step-num">01</div>
+            <div class="step-body">
+              <div class="step-title">VLM Frame Analysis</div>
+              <div class="step-sub">Claude Vision captions every scene — mood, action, setting — at 0.5 fps</div>
+            </div>
+          </div>
+          <div class="step animate card" style="padding:20px 24px">
+            <div class="step-num">02</div>
+            <div class="step-body">
+              <div class="step-title">Audience Clustering</div>
+              <div class="step-sub">K-means on text embeddings from your CSV → N distinct segments</div>
+            </div>
+          </div>
+          <div class="step animate card" style="padding:20px 24px">
+            <div class="step-num">03</div>
+            <div class="step-body">
+              <div class="step-title">Market Research</div>
+              <div class="step-sub">Perplexity queries per segment — messaging angles, cultural hooks, citations</div>
+            </div>
+          </div>
+          <div class="step animate card" style="padding:20px 24px">
+            <div class="step-num">04</div>
+            <div class="step-body">
+              <div class="step-title">Constraint-Aware Transform Planner</div>
+              <div class="step-sub">Claude plans color grade + speed + overlays — no conflicting edits</div>
+            </div>
+          </div>
+          <div class="step animate card" style="padding:20px 24px; border-color: rgba(99,102,241,.4)">
+            <div class="step-num" style="background:rgba(99,102,241,.25);border-color:rgba(99,102,241,.5)">05</div>
+            <div class="step-body">
+              <div class="step-title" style="color:var(--indigo)">FFmpeg Rendering → Variant MP4s</div>
+              <div class="step-sub">One URL per segment. Download, share, or push to ad platform.</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- right: MCP callout -->
+        <div class="flex col gap4" style="flex:.75">
+          <div class="card card-glow flex col gap4" style="flex:1">
+            <div class="eyebrow">MCP Tool</div>
+            <div class="h3">generate_<br>targeted_ad</div>
+            <div class="body" style="font-size:14px">
+              Single tool call.<br>Full pipeline end-to-end.
+            </div>
+            <div style="background:#0a0a16;border-radius:12px;padding:16px;font-family:'SF Mono',monospace;font-size:12px;color:#a5b4fc;line-height:1.7;border:1px solid rgba(99,102,241,.2)">
+              {<br>
+              &nbsp;&nbsp;"video_url": "…",<br>
+              &nbsp;&nbsp;"audience": "Urban<br>&nbsp;&nbsp;&nbsp;professionals 25–35",<br>
+              &nbsp;&nbsp;"group_count": 3<br>
+              }
+            </div>
+            <div style="background:#0a0a16;border-radius:12px;padding:16px;font-family:'SF Mono',monospace;font-size:12px;color:#6ee7b7;line-height:1.7;border:1px solid rgba(52,211,153,.2)">
+              → 3 variant MP4 URLs<br>
+              → Per-segment insights<br>
+              → Applied transforms
+            </div>
+            <div class="pill pill-indigo" style="align-self:flex-start;margin-top:auto">$500 / month automation</div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <!-- ══════════════════════════════════════════════
+       SLIDE 3 — TECH STACK + SUBMIT
+  ══════════════════════════════════════════════ -->
+  <div class="slide" id="s3">
+    <div class="content">
+
+      <div class="animate eyebrow">Tech stack</div>
+      <div class="animate h2 mt3">Built on the <span class="grad">Agent Economy</span></div>
+
+      <div class="animate flex gap4 mt10 wrap">
+
+        <div class="tech">
+          <div class="tech-icon">⚡</div>
+          <div class="tech-name">TokenRouter</div>
+          <div class="tech-role">Routes all LLM calls — Claude Vision, Claude Sonnet, Perplexity — through one API key. 60+ models, zero vendor lock-in.</div>
+        </div>
+
+        <div class="tech" style="border-color:rgba(99,102,241,.3);box-shadow:0 0 30px rgba(99,102,241,.07)">
+          <div class="tech-icon">🤖</div>
+          <div class="tech-name">AgentHansa</div>
+          <div class="tech-role">ADsensei registered as an Expert Agent. Earns USDC per pipeline run. Profile live at agenthansa.com/experts/adsensei</div>
+        </div>
+
+        <div class="tech">
+          <div class="tech-icon">🔧</div>
+          <div class="tech-name">MCP Server</div>
+          <div class="tech-role">7 tools exposed — analyze_video, cluster_profiles, market_research, generate_variants, generate_targeted_ad, edit_video, list_videos.</div>
+        </div>
+
+        <div class="tech">
+          <div class="tech-icon">💸</div>
+          <div class="tech-name">FluxA</div>
+          <div class="tech-role">Base USDC payout rail linked to AgentHansa. USDC released on delivery via escrow.</div>
+        </div>
+
+      </div>
+
+      <div class="animate mt10 card card-glow flex items-center justify-between gap6" style="flex-direction:row;flex-wrap:wrap">
+        <div>
+          <div class="eyebrow">Submission</div>
+          <div class="h3 mt2">ADsensei</div>
+          <div class="body mt2" style="font-size:15px">
+            <strong>Team:</strong> Shanthan &amp; Avaneesh<br>
+            <strong>Category:</strong> AI Agent Economy · Creative Automation
+          </div>
+        </div>
+        <div class="flex col gap3" style="align-items:flex-end">
+          <div class="pill pill-green"><span class="dot-live"></span> Live demo running</div>
+          <div class="pill pill-indigo">AgentHansa Expert ↗</div>
+          <div class="pill pill-white" style="font-family:'SF Mono',monospace;font-size:11px">localhost:3000</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</div><!-- /deck -->
+
+<!-- nav -->
+<div class="counter" id="counter">01 / 03</div>
+<div class="hint">← → to navigate</div>
+
+<div class="dots" id="dots">
+  <button class="dot on" onclick="go(0)"></button>
+  <button class="dot" onclick="go(1)"></button>
+  <button class="dot" onclick="go(2)"></button>
+</div>
+
+<script>
+  const slides  = document.querySelectorAll('.slide');
+  const dots    = document.querySelectorAll('.dot');
+  const counter = document.getElementById('counter');
+  let cur = 0;
+
+  function go(n) {
+    slides[cur].classList.remove('active');
+    dots[cur].classList.remove('on');
+    cur = (n + slides.length) % slides.length;
+    slides[cur].classList.add('active');
+    dots[cur].classList.add('on');
+    counter.textContent = String(cur + 1).padStart(2,'0') + ' / ' + String(slides.length).padStart(2,'0');
+  }
+
+  document.addEventListener('keydown', e => {
+    if (e.key === 'ArrowRight' || e.key === 'ArrowDown'  || e.key === ' ') go(cur + 1);
+    if (e.key === 'ArrowLeft'  || e.key === 'ArrowUp')                      go(cur - 1);
+  });
+
+  // swipe support
+  let tx = 0;
+  document.addEventListener('touchstart', e => tx = e.touches[0].clientX, { passive: true });
+  document.addEventListener('touchend',   e => {
+    const dx = tx - e.changedTouches[0].clientX;
+    if (Math.abs(dx) > 40) go(cur + (dx > 0 ? 1 : -1));
+  });
+</script>
+</body>
+</html>
